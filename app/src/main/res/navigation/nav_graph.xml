@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/celestialBodiesFragment">
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.fouadaha.astralis.features.celestialcalendar.presentation.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/skyOrientationFragment"
+        android:name="com.fouadaha.astralis.features.skyorientation.presentation.SkyOrientationFragment"
+        android:label="fragment_sky_orientation"
+        tools:layout="@layout/fragment_sky_orientation" />
+    <fragment
+        android:id="@+id/celestialBodiesFragment"
+        android:name="com.fouadaha.astralis.features.celestialobodies.presentation.CelestialBodiesFragment"
+        android:label="fragment_celestial_bodies"
+        tools:layout="@layout/fragment_celestial_bodies" >
+        <action
+            android:id="@+id/action_celestialBodiesFragment_to_placeholder2"
+            app:destination="@id/placeholder" />
+    </fragment>
+    <fragment android:id="@+id/placeholder" />
+</navigation>

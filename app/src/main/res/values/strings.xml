@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">astralis</string>
+    <string name="title_error">Titulo del error</string>
+    <string name="description_error">Descripción del error</string>
+    <string name="button_retry">Reintentar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list_fragment">Recycler View</string>
+    <string name="sky_fragment">Interfaz del cielo</string>
+    <string name="calendar_text">Calendario estelar</string>
 </resources>
