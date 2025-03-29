@@ -6,13 +6,14 @@ import com.fouadaha.astralis.core.di.LocalModule
 import com.fouadaha.astralis.core.di.RemoteModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
+import org.koin.ksp.generated.module
 
 class AstralisApp : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
             androidContext(this@AstralisApp)
-            //modules(AppModule().module, RemoteModule().module, LocalModule().module)
+            modules(AppModule().module, RemoteModule().module, LocalModule().module)
         }
     }
 }
