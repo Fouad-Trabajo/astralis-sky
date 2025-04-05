@@ -13,8 +13,8 @@ sealed class ErrorApp : Throwable() {
         private fun readResolve(): Any = DataErrorApp
     }
 
-    data object UnknowErrorApp : ErrorApp() {
-        private fun readResolve(): Any = UnknowErrorApp
+    data object UnknownErrorApp : ErrorApp() {
+        private fun readResolve(): Any = UnknownErrorApp
     }
     data object DataExpiredError : ErrorApp() {
         private fun readResolve(): Any = DataExpiredError

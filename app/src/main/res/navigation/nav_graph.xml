@@ -21,8 +21,12 @@
         android:label="fragment_celestial_bodies"
         tools:layout="@layout/fragment_celestial_bodies" >
         <action
-            android:id="@+id/action_celestialBodiesFragment_to_placeholder2"
-            app:destination="@id/placeholder" />
+            android:id="@+id/action_celestialBodiesFragment_to_bodyDetailFragment"
+            app:destination="@id/bodyDetailFragment" />
     </fragment>
-    <fragment android:id="@+id/placeholder" />
+    <fragment
+        android:id="@+id/bodyDetailFragment"
+        android:name="com.fouadaha.astralis.features.celestialobodies.presentation.BodyDetailFragment"
+        android:label="fragment_body_detail"
+        tools:layout="@layout/fragment_body_detail" />
 </navigation>

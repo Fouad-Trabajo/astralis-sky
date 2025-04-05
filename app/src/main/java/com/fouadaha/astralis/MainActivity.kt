@@ -1,10 +1,8 @@
 package com.fouadaha.astralis
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.fouadaha.astralis.databinding.ActivityMainBinding
@@ -25,5 +23,13 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.findFragmentById(R.id.nav_host_main) as NavHostFragment
         val navController = navHostFragment.navController
         binding.mainMenu.setupWithNavController(navController)
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if (destination.id == R.id.bodyDetailFragment) {
+                binding.mainMenu.visibility = View.GONE
+            } else {
+                binding.mainMenu.visibility = View.VISIBLE
+
+            }
+        }
     }
 }
