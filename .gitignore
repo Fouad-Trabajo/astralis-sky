@@ -11,3 +11,4 @@ local.properties
 # Google Services (e.g. APIs or Firebase)
 /app/src/google-services.json
 /app/src/google-services.json.base64
+/app/google-services.json
