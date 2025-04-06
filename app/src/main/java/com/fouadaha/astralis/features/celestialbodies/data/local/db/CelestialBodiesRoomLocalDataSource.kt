@@ -1,8 +1,7 @@
-package com.fouadaha.astralis.features.celestialobodies.data.local.db
+package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
-import android.util.Log
 import com.fouadaha.astralis.core.domain.ErrorApp
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import org.koin.core.annotation.Single
 
 const val TTL = 30000L
@@ -26,9 +25,7 @@ class CelestialBodiesRoomLocalDataSource(private val dao: CelestialBodiesDao) {
 
     suspend fun saveAll(celestialBody: List<CelestialBody>) {
         val entities = celestialBody.map { it.toEntity() }
-        Log.d("CelestialBodiesRoomLocalDataSource", "Entities: $entities")
         dao.saveAll(*entities.toTypedArray())
-        Log.d("CelestialBodiesRoomLocalDataSource", "Entities: $entities")
     }
 
     suspend fun getById(id: String): Result<CelestialBody> {

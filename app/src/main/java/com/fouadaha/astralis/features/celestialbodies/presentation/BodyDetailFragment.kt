@@ -1,4 +1,4 @@
-package com.fouadaha.astralis.features.celestialobodies.presentation
+package com.fouadaha.astralis.features.celestialbodies.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import coil.load
+import com.fouadaha.astralis.R
 import com.fouadaha.astralis.databinding.DialogCharacteristicsBodyBinding
 import com.fouadaha.astralis.databinding.FragmentBodyDetailBinding
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -18,6 +19,8 @@ class BodyDetailFragment : Fragment() {
 
     private val bodyDetailViewModel: BodyDetailViewModel by viewModel()
     private var _binding: FragmentBodyDetailBinding? = null
+    private var _dialogBinding: DialogCharacteristicsBodyBinding? = null
+    private val dialogBinding get() = _dialogBinding!!
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -46,33 +49,38 @@ class BodyDetailFragment : Fragment() {
     private fun bindData(body: CelestialBody?) {
         body?.let {
             binding.apply {
+                detailHeader.topAppBar.title = it.name
+                detailHeader.topAppBar.setNavigationOnClickListener {
+                    findNavController().navigateUp()
+                }
                 imageBodyDetail.load(body.imageUrl)
                 descriptionBodyDetail.text = body.description
                 characteristicsButton.setOnClickListener {
-                    showCharacteristicsDialog(body)
-                }
-                detailHeader.topAppBar.title = it.name
-
-                detailHeader.topAppBar.setNavigationOnClickListener {
-                    findNavController().navigateUp()
+                    characteristicsDialog(body)
                 }
             }
         }
     }
 
-    private fun showCharacteristicsDialog(body: CelestialBody) {
-        // Inflar el layout del dialog usando ViewBinding
+    private fun characteristicsDialog(body: CelestialBody) {
         val dialogBinding = DialogCharacteristicsBodyBinding.inflate(LayoutInflater.from(context))
 
-        // Establecer los valores dinámicamente con Binding
-        dialogBinding.bodyDensity.text = "Densidad: ${body.characteristics.density}"
-        dialogBinding.bodyTemperature.text = "Temperatura: ${body.characteristics.temperature}"
+        dialogBinding.apply { // Celestial body characteristics
+            bodyMass.text = getString(R.string.mass, body.characteristics.mass)
+            bodyDensity.text = getString(R.string.density, body.characteristics.density)
+            bodyTemperature.text = getString(R.string.temperature, body.characteristics.temperature)
+            bodyRadius.text = getString(R.string.radius, body.characteristics.radius)
+            bodyGravity.text = getString(R.string.gravity, body.characteristics.gravity)
+            bodyType.text = getString(
+                R.string.celestial_body_type,
+                body.characteristics.celestialBodyType.toString()
+            )
+        }
 
-        // Crear y mostrar el AlertDialog con ViewBinding
         MaterialAlertDialogBuilder(requireContext())
             .setView(dialogBinding.root)
-            .setTitle("Características del Cuerpo Celeste")
-            .setPositiveButton("Cerrar", null) // Botón para cerrar el diálogo
+            .setTitle(R.string.characteristics_dialog)
+            .setPositiveButton(R.string.close, null)
             .show()
     }
 

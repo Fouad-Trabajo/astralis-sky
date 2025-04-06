@@ -1,32 +1,32 @@
-package com.fouadaha.astralis.features.celestialobodies.presentation
+package com.fouadaha.astralis.features.celestialbodies.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.fouadaha.astralis.core.domain.ErrorApp
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
-import com.fouadaha.astralis.features.celestialobodies.domain.GetCelestialBodiesUseCase
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.domain.GetCelestialBodyUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.koin.android.annotation.KoinViewModel
 
 @KoinViewModel
-class CelestialBodiesViewModel(private val useCase: GetCelestialBodiesUseCase) :
+class BodyDetailViewModel(private val useCase: GetCelestialBodyUseCase) :
     ViewModel() {
 
     private val _uiState = MutableLiveData<UiState>()
     val uiState: LiveData<UiState> = _uiState
 
-    fun getCelestialBodies() {
+    fun getBody(id: String) {
         _uiState.value = UiState(isLoading = true)
         viewModelScope.launch(Dispatchers.IO) {
-            val bodies = useCase()
+            val body = useCase(id)
             _uiState.postValue(
                 UiState(
                     isLoading = false,
-                    bodies = bodies.getOrNull(),
-                    errorApp = bodies.exceptionOrNull() as? ErrorApp
+                    body = body.getOrNull(),
+                    errorApp = body.exceptionOrNull() as? ErrorApp
                 )
             )
         }
@@ -36,6 +36,6 @@ class CelestialBodiesViewModel(private val useCase: GetCelestialBodiesUseCase) :
     data class UiState(
         val isLoading: Boolean = false,
         val errorApp: ErrorApp? = null,
-        val bodies: List<CelestialBody>? = emptyList()
+        val body: CelestialBody? = null
     )
 }

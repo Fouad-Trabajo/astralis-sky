@@ -1,11 +1,11 @@
-package com.fouadaha.astralis.features.celestialobodies.presentation.adapter
+package com.fouadaha.astralis.features.celestialbodies.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import com.fouadaha.astralis.R
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 
 
 class CelestialBodiesAdapter :
@@ -35,7 +35,5 @@ class CelestialBodyDiffUtil : DiffUtil.ItemCallback<CelestialBody>() {
     override fun areContentsTheSame(oldItem: CelestialBody, newItem: CelestialBody): Boolean {
         return oldItem == newItem
     }
-
-
 }
 

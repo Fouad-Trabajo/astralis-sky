@@ -1,4 +1,4 @@
-package com.fouadaha.astralis.features.celestialobodies.data.local.db
+package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
 import androidx.room.Dao
 import androidx.room.Insert

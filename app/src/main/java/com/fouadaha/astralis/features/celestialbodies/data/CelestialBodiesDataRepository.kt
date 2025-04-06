@@ -1,9 +1,9 @@
-package com.fouadaha.astralis.features.celestialobodies.data
+package com.fouadaha.astralis.features.celestialbodies.data
 
-import com.fouadaha.astralis.features.celestialobodies.data.local.db.CelestialBodiesRoomLocalDataSource
-import com.fouadaha.astralis.features.celestialobodies.data.remote.firebase.CelestialBodiesFirebaseRemoteDataSource
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBodiesRepository
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.data.local.db.CelestialBodiesRoomLocalDataSource
+import com.fouadaha.astralis.features.celestialbodies.data.remote.firebase.CelestialBodiesFirebaseRemoteDataSource
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBodiesRepository
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import org.koin.core.annotation.Single
 
 @Single
@@ -24,7 +24,6 @@ class CelestialBodiesDataRepository(
 
     override suspend fun getCelestialBody(id: String): Result<CelestialBody?> {
         val roomData = localDataSource.getById(id)
-
         return Result.success(roomData.getOrNull())
     }
 }

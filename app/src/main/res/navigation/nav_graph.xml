@@ -17,7 +17,7 @@
         tools:layout="@layout/fragment_sky_orientation" />
     <fragment
         android:id="@+id/celestialBodiesFragment"
-        android:name="com.fouadaha.astralis.features.celestialobodies.presentation.CelestialBodiesFragment"
+        android:name="com.fouadaha.astralis.features.celestialbodies.presentation.CelestialBodiesFragment"
         android:label="fragment_celestial_bodies"
         tools:layout="@layout/fragment_celestial_bodies" >
         <action
@@ -26,7 +26,7 @@
     </fragment>
     <fragment
         android:id="@+id/bodyDetailFragment"
-        android:name="com.fouadaha.astralis.features.celestialobodies.presentation.BodyDetailFragment"
+        android:name="com.fouadaha.astralis.features.celestialbodies.presentation.BodyDetailFragment"
         android:label="fragment_body_detail"
         tools:layout="@layout/fragment_body_detail" />
 </navigation>

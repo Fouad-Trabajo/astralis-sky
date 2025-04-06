@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/padding_medium"
-    tools:context=".features.celestialobodies.presentation.BodyDetailFragment">
+    tools:context=".features.celestialbodies.presentation.BodyDetailFragment">
 
     <include
         android:id="@+id/detail_header"
@@ -14,17 +14,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <!--
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/name_body_detail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/name_body"
-            android:textSize="@dimen/font_size_high"
-            android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/detail_header" />
-    -->
+
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/image_body_detail"
         android:layout_width="@dimen/image_size_extra_extra_extra_high"
@@ -50,6 +40,6 @@
         android:layout_marginTop="@dimen/margin_medium"
         android:text="@string/body_description"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_body_detail" />
+        app:layout_constraintTop_toBottomOf="@+id/image_body_detail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

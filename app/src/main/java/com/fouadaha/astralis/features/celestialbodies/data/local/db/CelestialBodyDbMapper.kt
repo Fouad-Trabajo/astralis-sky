@@ -1,6 +1,6 @@
-package com.fouadaha.astralis.features.celestialobodies.data.local.db
+package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import java.util.Date
 
 fun CelestialBody.toEntity(): CelestialBodyEntity =

@@ -4,7 +4,7 @@ import android.app.Application
 import com.fouadaha.astralis.core.di.AppModule
 import com.fouadaha.astralis.core.di.LocalModule
 import com.fouadaha.astralis.core.di.RemoteModule
-import com.fouadaha.astralis.features.celestialobodies.di.CelestialBodyModule
+import com.fouadaha.astralis.features.celestialbodies.di.CelestialBodyModule
 import com.google.firebase.FirebaseApp
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin

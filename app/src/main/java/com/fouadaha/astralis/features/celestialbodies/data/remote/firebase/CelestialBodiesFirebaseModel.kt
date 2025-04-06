@@ -1,4 +1,4 @@
-package com.fouadaha.astralis.features.celestialobodies.data.remote.firebase
+package com.fouadaha.astralis.features.celestialbodies.data.remote.firebase
 
 import com.google.firebase.firestore.PropertyName
 
@@ -8,7 +8,7 @@ data class CelestialBodiesFirebaseModel(
     @PropertyName("description") val description: String = "",
     @PropertyName("characteristics") val characteristics:
     CharacteristicsFirebaseModel = CharacteristicsFirebaseModel(),
-    @PropertyName("imageUrl") val imageUrl: String = "",
+    @PropertyName("imageUrl") val imageUrl: String = ""
 )
 
 data class CharacteristicsFirebaseModel(
@@ -18,7 +18,6 @@ data class CharacteristicsFirebaseModel(
     @PropertyName("radius") val radius: String = "",
     @PropertyName("density") val density: String = "",
     @PropertyName("temperature") val temperature: String = "",
-    @PropertyName("gravity") val gravity: String = "",
-
-    )
+    @PropertyName("gravity") val gravity: String = ""
+)
 

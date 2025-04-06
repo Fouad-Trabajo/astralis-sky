@@ -1,7 +1,7 @@
-package com.fouadaha.astralis.features.celestialobodies.data.local.db.converters
+package com.fouadaha.astralis.features.celestialbodies.data.local.db.converters
 
 import androidx.room.TypeConverter
-import com.fouadaha.astralis.features.celestialobodies.domain.Characteristics
+import com.fouadaha.astralis.features.celestialbodies.domain.Characteristics
 import com.google.gson.Gson
 
 class CharacteristicsConverter {

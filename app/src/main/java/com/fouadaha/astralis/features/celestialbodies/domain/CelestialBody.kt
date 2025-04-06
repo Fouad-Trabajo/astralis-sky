@@ -1,4 +1,4 @@
-package com.fouadaha.astralis.features.celestialobodies.domain
+package com.fouadaha.astralis.features.celestialbodies.domain
 
 data class CelestialBody(
     val id: String,

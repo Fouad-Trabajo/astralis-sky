@@ -1,15 +1,13 @@
-package com.fouadaha.astralis.features.celestialobodies.data.local.db
+package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.fouadaha.astralis.features.celestialobodies.domain.Characteristics
+import com.fouadaha.astralis.features.celestialbodies.domain.Characteristics
 import java.util.Date
 
 const val CELESTIAL_BODY_TABLE = "celestial_body"
-const val CHARACTERISTICS_BODY_TABLE = "characteristics_celestial_body"
 const val CELESTIAL_BODY_ID = "celestial_body_id"
-const val CHARACTERISTICS_ID = "characteristics_id"
 
 @Entity(tableName = CELESTIAL_BODY_TABLE)
 class CelestialBodyEntity(

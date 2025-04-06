@@ -1,8 +1,8 @@
-package com.fouadaha.astralis.features.celestialobodies.data.remote.firebase
+package com.fouadaha.astralis.features.celestialbodies.data.remote.firebase
 
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBody
-import com.fouadaha.astralis.features.celestialobodies.domain.CelestialBodyType
-import com.fouadaha.astralis.features.celestialobodies.domain.Characteristics
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBodyType
+import com.fouadaha.astralis.features.celestialbodies.domain.Characteristics
 
 fun CelestialBodiesFirebaseModel.toDomain(): CelestialBody {
     return CelestialBody(
