@@ -28,5 +28,9 @@
         android:id="@+id/bodyDetailFragment"
         android:name="com.fouadaha.astralis.features.celestialbodies.presentation.BodyDetailFragment"
         android:label="fragment_body_detail"
-        tools:layout="@layout/fragment_body_detail" />
+        tools:layout="@layout/fragment_body_detail">
+        <argument
+            android:name="bodyId"
+            app:argType="string" />
+    </fragment>
 </navigation>

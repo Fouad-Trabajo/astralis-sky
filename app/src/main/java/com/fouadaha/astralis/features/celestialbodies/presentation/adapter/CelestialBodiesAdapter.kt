@@ -8,7 +8,7 @@ import com.fouadaha.astralis.R
 import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 
 
-class CelestialBodiesAdapter :
+class CelestialBodiesAdapter(private val onClickListener: (CelestialBody) -> Unit) :
     ListAdapter<CelestialBody, CelestialBodiesViewHolder>(CelestialBodyDiffUtil()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CelestialBodiesViewHolder {
         val view =
@@ -17,12 +17,8 @@ class CelestialBodiesAdapter :
     }
 
     override fun onBindViewHolder(holder: CelestialBodiesViewHolder, position: Int) {
-        holder.bind(currentList[position], onClick)
-    }
-
-    private lateinit var onClick: (bodyId: String) -> Unit
-    fun setEvent(onClick: (bodyId: String) -> Unit) {
-        this.onClick = onClick
+        val body = getItem(position)
+        holder.bind(body, onClickListener)
     }
 }
 

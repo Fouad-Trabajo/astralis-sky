@@ -5,7 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".features.celestialbodies.presentation.CelestialBodiesFragment">
+    tools:context="com.fouadaha.astralis.features.celestialbodies.presentation.CelestialBodiesFragment">
+
+    <com.fouadaha.astralis.core.presentation.views.ErrorAppView
+        android:id="@+id/error_app_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <include
         android:id="@+id/main_header"
@@ -19,6 +28,7 @@
         android:id="@+id/list_celestial_bodies"
         android:layout_width="match_parent"
         android:layout_height="@dimen/null_value"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_header"
         tools:listitem="@layout/item_celestial_body" />
 
@@ -27,15 +37,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginVertical="60dp"
+        android:layout_marginVertical="40dp"
         android:text="@string/filter"
         app:icon="@drawable/ic_filter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <com.fouadaha.astralis.core.presentation.views.ErrorAppView
-        android:id="@+id/error_app_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

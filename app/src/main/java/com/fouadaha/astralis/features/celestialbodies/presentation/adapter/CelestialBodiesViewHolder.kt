@@ -11,16 +11,14 @@ class CelestialBodiesViewHolder(private val view: View) : RecyclerView.ViewHolde
 
     private lateinit var binding: ItemCelestialBodyBinding
 
-    fun bind(body: CelestialBody, onClick: (bodyId: String) -> Unit) {
+    fun bind(body: CelestialBody, onClickListener: (CelestialBody) -> Unit) {
         binding = ItemCelestialBodyBinding.bind(view)
         binding.apply {
-            nameBodyItem.text = body.name
             imageBodyItem.load(body.imageUrl)
+            nameBodyItem.text = body.name
             view.setOnClickListener {
-                onClick(body.id)
+                onClickListener(body)
             }
         }
     }
-
-
 }

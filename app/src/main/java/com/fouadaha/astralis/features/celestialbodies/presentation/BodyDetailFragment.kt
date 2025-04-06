@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import coil.load
 import com.fouadaha.astralis.R
 import com.fouadaha.astralis.databinding.DialogCharacteristicsBodyBinding
@@ -23,6 +24,8 @@ class BodyDetailFragment : Fragment() {
     private val dialogBinding get() = _dialogBinding!!
     private val binding get() = _binding!!
 
+    private val arguments: BodyDetailFragmentArgs by navArgs()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -34,13 +37,12 @@ class BodyDetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupObserver()
-        arguments?.getString("bodyId")?.let { bodyDetailViewModel.getBody(it) }
+        val bodyId = arguments.bodyId
+        bodyDetailViewModel.getBody(bodyId)
     }
 
     private fun setupObserver() {
         val bodyObserver = Observer<BodyDetailViewModel.UiState> { uiState ->
-            // checkLoading(uiState.isLoading)
-            // checkError(uiState.errorApp)
             bindData(uiState.body)
         }
         bodyDetailViewModel.uiState.observe(viewLifecycleOwner, bodyObserver)
@@ -49,10 +51,12 @@ class BodyDetailFragment : Fragment() {
     private fun bindData(body: CelestialBody?) {
         body?.let {
             binding.apply {
+                // Toolbar
                 detailHeader.topAppBar.title = it.name
                 detailHeader.topAppBar.setNavigationOnClickListener {
                     findNavController().navigateUp()
                 }
+                // Body detail
                 imageBodyDetail.load(body.imageUrl)
                 descriptionBodyDetail.text = body.description
                 characteristicsButton.setOnClickListener {
@@ -63,7 +67,7 @@ class BodyDetailFragment : Fragment() {
     }
 
     private fun characteristicsDialog(body: CelestialBody) {
-        val dialogBinding = DialogCharacteristicsBodyBinding.inflate(LayoutInflater.from(context))
+        _dialogBinding = DialogCharacteristicsBodyBinding.inflate(LayoutInflater.from(context))
 
         dialogBinding.apply { // Celestial body characteristics
             bodyMass.text = getString(R.string.mass, body.characteristics.mass)
@@ -87,5 +91,6 @@ class BodyDetailFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+        _dialogBinding = null
     }
 }

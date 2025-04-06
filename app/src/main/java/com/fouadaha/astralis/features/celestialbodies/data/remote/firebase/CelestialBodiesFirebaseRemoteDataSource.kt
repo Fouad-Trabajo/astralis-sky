@@ -1,6 +1,5 @@
 package com.fouadaha.astralis.features.celestialbodies.data.remote.firebase
 
-import android.util.Log
 import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
@@ -17,7 +16,6 @@ class CelestialBodiesFirebaseRemoteDataSource(private val fireStore: FirebaseFir
             .mapNotNull {
                 it.toObject(CelestialBodiesFirebaseModel::class.java)?.toDomain()
             }
-        Log.d("\nCelestialBodiesFirebaseRemoteDataSource", "Celestial Bodies: $celestialBodies\n")
         return Result.success(celestialBodies)
     }
 }

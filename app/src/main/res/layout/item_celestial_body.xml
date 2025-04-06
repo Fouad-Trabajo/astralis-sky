@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="@dimen/margin_medium">
+    android:padding="@dimen/margin_medium"
+    tools:context="com.fouadaha.astralis.features.celestialbodies.presentation.adapter.CelestialBodiesViewHolder">
 
     <com.google.android.material.circularreveal.cardview.CircularRevealCardView
         android:layout_width="match_parent"
@@ -16,8 +17,9 @@
 
             <TextView
                 android:id="@+id/name_body_item"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/null_value"
+                android:layout_height="@dimen/null_value"
+                android:gravity="center"
                 android:text="@string/name_body"
                 android:textSize="@dimen/font_size_high"
                 app:layout_constraintBottom_toBottomOf="parent"

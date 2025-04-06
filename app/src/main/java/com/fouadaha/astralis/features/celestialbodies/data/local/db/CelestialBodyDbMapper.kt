@@ -13,7 +13,6 @@ fun CelestialBody.toEntity(): CelestialBodyEntity =
         date = Date()
     )
 
-
 fun CelestialBodyEntity.toDomain(): CelestialBody =
     CelestialBody(
         this.id,
