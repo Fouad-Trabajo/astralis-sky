@@ -1,1 +1,0 @@
-# Proyecto de astralia sobre la visualización del cielo
