@@ -1,11 +1,44 @@
 <resources>
     <string name="app_name">astralis</string>
+    <!-- ErrorView -->
     <string name="title_error">Titulo del error</string>
     <string name="description_error">Descripción del error</string>
     <string name="button_retry">Reintentar</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="list_fragment">Recycler View</string>
+    <!-- Recycler view -->
+    <string name="list_fragment">Lista de astros</string>
+    <string name="body_description">Descipción del cuerpo celeste</string>
+    <string name="name_body">Nombre del astro</string>
+    <string name="filter">Filtrar</string>
+    <string name="characteristics">Características</string>
+
+    <!-- Filters Dialog -->
+    <string name="name_filter">Nombre filtro</string>
+    <string name="planet_filter">Planeta</string>
+    <string name="star_filter">Estrella</string>
+    <string name="dwarf_planet_filter">Planeta enano</string>
+    <string name="asteroid_filter">Asteróide</string>
+    <string name="black_hole_filter">Agujero negro</string>
+    <string name="satellite_filter">Satélite</string>
+    <string name="artificial_satellite_filter">Satélite artificial</string>
+    <string name="galaxy_filter">Galaxia</string>
+    <!-- Body detail -->
+    <string name="image_body_item">Descripción de la imagen de item del cuerpo celeste</string>
+    <string name="density">"Densidad: %s"</string>
+    <string name="temperature">"Temperatura: %s"</string>
+    <string name="mass">Masa: %s</string>
+    <string name="radius">"Radio: %s"</string>
+    <string name="gravity">"Gravedad: %s"</string>
+    <string name="celestial_body_type">"Tipo de cuerpo: %s"</string>
+    <string name="bodies">Astros</string>
+    <string name="filters">Filtros</string>
+    <string name="apply">Aplicar</string>
+    <string name="characteristics_dialog">Características del Cuerpo</string>
+    <string name="close">Cerrar</string>
+
+
     <string name="sky_fragment">Interfaz del cielo</string>
     <string name="calendar_text">Calendario estelar</string>
+
 </resources>

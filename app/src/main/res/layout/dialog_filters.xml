@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid_filter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:padding="@dimen/margin_medium"
+    tools:context="com.fouadaha.astralis.features.celestialbodies.presentation.CelestialBodiesFragment">
+
+    <CheckBox
+        android:id="@+id/checkbox_planet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/planet_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/planet_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/star_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/star_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_dwarf_planet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dwarf_planet_filter"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dwarf_planet_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_asteroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/asteroid_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asteroid_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_black_hole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small" />
+
+    <TextView
+        android:id="@+id/black_hole_filter"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/black_hole_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_satellite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/satellite_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satellite_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_artificial_satellite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small" />
+
+    <TextView
+        android:id="@+id/artificial_satellite_filter"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/artificial_satellite_filter"
+        android:textSize="@dimen/font_size_small" />
+
+    <CheckBox
+        android:id="@+id/checkbox_galaxy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/galaxy_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galaxy_filter"
+        android:textSize="@dimen/font_size_small" />
+</GridLayout>

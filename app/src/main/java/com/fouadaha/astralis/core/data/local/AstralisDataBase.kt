@@ -4,9 +4,12 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.fouadaha.astralis.core.data.local.converters.DateConverter
+import com.fouadaha.astralis.features.celestialbodies.data.local.db.CelestialBodiesDao
+import com.fouadaha.astralis.features.celestialbodies.data.local.db.CelestialBodyEntity
+import com.fouadaha.astralis.features.celestialbodies.data.local.db.converters.CharacteristicsConverter
 
-@Database(entities = [EntityExample::class], version = 1, exportSchema = false)
-@TypeConverters(DateConverter::class)
+@Database(entities = [CelestialBodyEntity::class], version = 2, exportSchema = false)
+@TypeConverters(DateConverter::class, CharacteristicsConverter::class)
 abstract class AstralisDataBase : RoomDatabase() {
-
+    abstract fun celestialBodiesDao(): CelestialBodiesDao
 }
