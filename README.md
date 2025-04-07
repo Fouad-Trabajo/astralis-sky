@@ -18,7 +18,9 @@ astronómicos
 ## Video 🎥
 
 A continuación, te dejo un video que muestra el funcionamiento y características de la app:
-![video funcionalidad](https://github.com/user-attachments/assets/db01bfbf-ff9b-41ba-bfe6-cae59e1149e1)
+
+![video funcionalidad  gif](https://github.com/user-attachments/assets/77b7aec9-0ec8-4966-ba10-86d0be4946f2)
+
 
 ## ✨ Características
 
