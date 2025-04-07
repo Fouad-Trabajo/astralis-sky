@@ -1,6 +1,6 @@
 # Astralia 🔭 - Proyecto TFG (DAM) 📋🚀
 
-*[README en inglés](README_IN)*
+*[README en inglés](README_IN.md)*
 
 **Astralis** es una aplicación Android desarrollada como **Trabajo de Fin de Ciclo (TFG)** del Ciclo
 Formativo
