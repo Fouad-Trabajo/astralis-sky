@@ -19,7 +19,7 @@ calendar of astronomical events.
 ## Video 🎥
 
 Here’s a video showcasing the functionality and features of the app:  
-![demo video](https://github.com/user-attachments/assets/db01bfbf-ff9b-41ba-bfe6-cae59e1149e1)
+![video funcionalidad  gif](https://github.com/user-attachments/assets/46ffea3e-be27-4976-bbbc-c08533f708b3)
 
 ## ✨ Features
 
