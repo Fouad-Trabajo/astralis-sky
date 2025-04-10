@@ -63,7 +63,7 @@ alumno.
 
 ## **Desarrollador 👨‍💻**
 
-Fouad Aharchi Aharchi  
+🕴️Fouad Aharchi Aharchi  
 📍 Ávila, España  
 🎓 Estudiante de 2º DAM (IES Alonso de Madrigal)  
 📅 Curso 2024–2025
