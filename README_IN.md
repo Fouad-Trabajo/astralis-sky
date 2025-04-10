@@ -60,7 +60,7 @@ This project is private and subject to restricted usage rights by both the schoo
 
 ## **Developer 👨‍💻**
 
-Fouad Aharchi Aharchi  
+🕴️Fouad Aharchi Aharchi  
 📍 Ávila, Spain  
 🎓 2nd Year DAM Student (IES Alonso de Madrigal)  
 📅 Academic Year 2024–2025
