@@ -1,26 +1,20 @@
 package com.fouadaha.astralis.features.skyorientation.presentation
 
-import android.content.Context.SENSOR_SERVICE
-import android.hardware.Sensor
-import android.hardware.SensorEvent
-import android.hardware.SensorEventListener
-import android.hardware.SensorManager
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.fouadaha.astralis.databinding.FragmentSkyOrientationBinding
+import com.fouadaha.astralis.features.skyorientation.presentation.sensors.DeviceOrientationManager
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class SkyOrientationFragment : Fragment(), SensorEventListener {
+class SkyOrientationFragment : Fragment() {
 
-    //private val skyViewModel: SkyViewModel by viewModel()
     private var _binding: FragmentSkyOrientationBinding? = null
     private val binding get() = _binding!!
-
-    private lateinit var sensorManager: SensorManager
-    private var sensor: Sensor? = null
-    //private lateinit var gyroListener: SensorEventListener
+    private lateinit var orientationManager: DeviceOrientationManager
+    private val viewModel: CelestialBodiesViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -32,56 +26,21 @@ class SkyOrientationFragment : Fragment(), SensorEventListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        //skyViewModel.getSkyOrientation()
-        orientationSensors()
-        sensorManager = requireActivity().getSystemService(SENSOR_SERVICE) as SensorManager
-        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE)
-    }
-
-    private fun orientationSensors() {
-        //sensorManager = requireActivity().getSystemService(SENSOR_SERVICE) as SensorManager
-        //sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE)
-        //sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
-//        binding.apply {
-//            ejeX.text
-//            ejeY
-//            ejeZ
-//        }
-        //setRequestOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL)
-    }
-
-    override fun onStop() {
-        super.onStop()
-        sensorManager.unregisterListener(this)
-    }
-
-
-    override fun onSensorChanged(event: SensorEvent) {
-
-        val x = event.values[0]
-        val y = event.values[1]
-        val z = event.values[2]
-
-        binding.apply {
-            ejeX.text = "$x"
-            ejeY.text = "$y"
-            ejeZ.text = "$z"
+        orientationManager = DeviceOrientationManager(requireContext())
+        viewModel.uiState.observe(viewLifecycleOwner) { state ->
+            state.bodies?.let {
+                binding.orbitView.updateBodies(it)
+            }
         }
+        orientationManager.startListening { orientation ->
+            binding.orbitView.deviceOrientation = orientation
+        }
+        viewModel.getCelestialBodies()
     }
-
-
-    override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {
-        SensorManager.SENSOR_STATUS_ACCURACY_HIGH
-    }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
+        orientationManager.stopListening()
         _binding = null
     }
 }

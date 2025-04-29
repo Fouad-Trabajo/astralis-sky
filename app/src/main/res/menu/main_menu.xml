@@ -8,7 +8,7 @@
     <item
         android:id="@+id/skyOrientationFragment"
         android:enabled="true"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@drawable/ic_planets_orbits"
         android:title="@string/sky_fragment" />
     <item
         android:id="@+id/calendarFragment"

@@ -11,3 +11,4 @@ local.properties
 # Google Services (e.g. APIs or Firebase)
 /app/google-services.json
 /app/google-services.json.base64
+/.kotlin/errors/errors-1745946471491.log
