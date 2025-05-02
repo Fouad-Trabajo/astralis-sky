@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".features.skyorientation.presentation.SkyOrientationFragment">
+    android:orientation="vertical"
+    tools:context="com.fouadaha.astralis.features.skyorientation.presentation.SkyOrientationFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.fouadaha.astralis.features.skyorientation.presentation.OrbitView
+        android:id="@+id/orbitView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="50dp"
-        android:text="@string/sky_fragment" />
-
-</FrameLayout>
+        android:layout_height="match_parent" />
+</LinearLayout>
