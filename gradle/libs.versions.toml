@@ -1,7 +1,7 @@
 [versions]
 agp = "8.7.3"
 kotlin = "2.0.21"
-coreKtx = "1.15.0"
+coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -9,7 +9,7 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
-navigationComponentVersion= "2.8.9"
+navigationComponentVersion = "2.8.9"
 kotlinxCoroutinesTest = "1.10.1"
 mockk = "1.13.13"
 navigationFragment = "2.8.9"
@@ -23,12 +23,14 @@ koinAnnotations = "1.4.0"
 kspVersion = "2.0.21-1.0.26"
 coil = "2.7.0"
 junitJupiter = "5.11.3"
-room-version = "2.6.1"
+room-version = "2.7.1"
 skeletonlayout = "5.0.0"
 fragmentKtx = "1.8.6"
-firebaseBom = "33.11.0"
+firebaseBom = "33.13.0"
 googleServices = "4.4.2"
-legacySupportV4 = "1.0.0"
+
+materialCalendarVersion = "2.0.0"
+threetenabpVersion = "1.4.4"
 
 
 [libraries]
@@ -67,17 +69,17 @@ okhttp-log-interceptor = { group = "com.squareup.okhttp3", name = "logging-inter
 gson-serializer = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 
-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room-version"  }
-room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "room-version"  }
-room-coroutines = { group = "androidx.room", name = "room-ktx", version.ref = "room-version"  }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room-version" }
+room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "room-version" }
+room-coroutines = { group = "androidx.room", name = "room-ktx", version.ref = "room-version" }
 
 firebaseBom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
 
 skeletonlayout = { module = "com.faltenreich:skeletonlayout", version.ref = "skeletonlayout" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
-androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
-
+material-calendar-view = { group = "com.github.prolificinteractive", name = "material-calendarview", version.ref = "materialCalendarVersion" }
+threetenabp = { group = "com.jakewharton.threetenabp", name = "threetenabp", version.ref = "threetenabpVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

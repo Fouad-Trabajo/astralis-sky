@@ -7,6 +7,7 @@ import com.fouadaha.astralis.core.di.RemoteModule
 import com.fouadaha.astralis.features.celestialbodies.di.CelestialBodyModule
 import com.fouadaha.astralis.features.skyorientation.di.SkyOrientationModule
 import com.google.firebase.FirebaseApp
+import com.jakewharton.threetenabp.AndroidThreeTen
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 import org.koin.ksp.generated.module
@@ -14,6 +15,7 @@ import org.koin.ksp.generated.module
 class AstralisApp : Application() {
     override fun onCreate() {
         super.onCreate()
+        AndroidThreeTen.init(this)
         FirebaseApp.initializeApp(this)
         startKoin {
             androidContext(this@AstralisApp)

@@ -49,7 +49,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.legacy.support.v4)
+    //implementation(libs.androidx.legacy.support.v4)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -88,8 +88,10 @@ dependencies {
     implementation(project.dependencies.platform(libs.firebaseBom))
     //Firestore
     implementation(libs.firebase.firestore)
-
-
+    //MaterialCalendarView
+    implementation(libs.material.calendar.view)
+    //Threetenabp
+    implementation(libs.threetenabp)
 
 
     //MockK
