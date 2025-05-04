@@ -19,7 +19,7 @@ astronómicos (calendario de eventos astronómicos todavía no implementado)
 
 A continuación, te dejo un video que muestra el funcionamiento y características de la app:
 
-![video funcionalidad  gif](https://github.com/user-attachments/assets/119b8132-9315-4e9b-b036-ecdcf61bba25)
+https://github.com/user-attachments/assets/900c8276-43d6-4a8d-b270-3ae6df0158c1
 
 
 ## ✨ Características
