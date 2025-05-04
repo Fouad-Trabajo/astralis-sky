@@ -1,4 +1,4 @@
-# Astralia 🔭 - Proyecto TFG (DAM) 📋🚀
+# Astralis 🔭 - Proyecto TFG (DAM) 📋🚀
 
 *[README en inglés](README_IN.md)*
 
@@ -13,13 +13,13 @@ visualizando información detallada, imágenes y categorías de cada uno.
 
 En esta aplicación se pretende crear una interfaz que se mueva con el movimiento del dispositivo
 permitiendo mostrar la ubicación de los astros en el firmamento. Además de un calendario de eventos
-astronómicos
+astronómicos (calendario de eventos astronómicos todavía no implementado)
 
 ## Video 🎥
 
 A continuación, te dejo un video que muestra el funcionamiento y características de la app:
 
-![video funcionalidad  gif](https://github.com/user-attachments/assets/77b7aec9-0ec8-4966-ba10-86d0be4946f2)
+![video funcionalidad  gif](https://github.com/user-attachments/assets/119b8132-9315-4e9b-b036-ecdcf61bba25)
 
 
 ## ✨ Características
@@ -41,10 +41,11 @@ A continuación, te dejo un video que muestra el funcionamiento y característic
 - **Base de datos local**: Room
 - **Base de datos remota**: Firebase Firestore
 - **Serialización**: Gson
+- **Conexión con API**
 - **Gestión de vistas**:
     - Navigation Component
     - SkeletonLayout
-    - CustomErrorView (propia)
+  - CustomView (Interfaz dinámica: OrbitView)
 
 ## Instalación ⚡
 
