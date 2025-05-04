@@ -50,9 +50,6 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.legacy.support.v4)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 
     //Lifecycle
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
@@ -91,15 +88,9 @@ dependencies {
 
 
 
-
     //MockK
     testImplementation(libs.mockk)
-    testImplementation(libs.mockk.android)
-    testImplementation(libs.mockk.agent)
     //JUnit
     testImplementation(libs.junit)
     testImplementation(libs.junit.jupiter)
-    //testImplementation(libs.junit.jupiter.engine)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
