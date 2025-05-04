@@ -13,7 +13,7 @@
     <item
         android:id="@+id/calendarFragment"
         android:enabled="true"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@drawable/ic_calendar"
         android:title="@string/calendar_text" />
 
 </menu>

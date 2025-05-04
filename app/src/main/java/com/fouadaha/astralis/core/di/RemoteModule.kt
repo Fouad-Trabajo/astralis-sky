@@ -1,6 +1,8 @@
 package com.fouadaha.astralis.core.di
 
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.core.annotation.ComponentScan
@@ -14,6 +16,14 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RemoteModule {
 
     private val url = "https://api.le-systeme-solaire.net/rest/"
+
+    @Single
+    fun provideGson(): Gson {
+        return GsonBuilder()
+            .setDateFormat("dd/MM/yyyy")
+            .create()
+    }
+
     @Single
     fun provideLoggingInterceptor() = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
@@ -29,12 +39,12 @@ class RemoteModule {
     }
 
     @Single
-    fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
+    fun provideRetrofit(okHttpClient: OkHttpClient, gson: Gson): Retrofit {
         val retrofit = Retrofit
             .Builder()
             .baseUrl(url)
             .client(okHttpClient)
-            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
         return retrofit
     }
