@@ -18,15 +18,15 @@ class CelestialBodiesXmlLocalDataSource(private val context: Context) {
             Context.MODE_PRIVATE
         )
 
-    fun saveLocalBodies(celestialBodies: List<CelestialBody>) {
+    fun saveLocalBodies(celestialBodies: List<CelestialBody?>) {
         val editor = sharedPref.edit()
         celestialBodies.forEach { celestialBody ->
-            editor.putString(celestialBody.id, gson.toJson(celestialBody))
+            editor.putString(celestialBody?.celestialBody?.id, gson.toJson(celestialBody))
             editor.apply()
         }
     }
 
-    fun getLocalBodies(): Result<List<CelestialBody>> {
+    fun getLocalBodies(): Result<List<CelestialBody?>> {
         return try {
             val bodies = mutableListOf<CelestialBody>()
             val map = sharedPref.all

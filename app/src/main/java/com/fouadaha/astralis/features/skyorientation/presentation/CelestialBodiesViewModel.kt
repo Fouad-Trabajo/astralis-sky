@@ -26,6 +26,6 @@ class CelestialBodiesViewModel(private val useCase: GetCelestialBodiesUseCase) :
     }
 
     data class UiState(
-        val bodies: List<CelestialBody>? = emptyList()
+        val bodies: List<CelestialBody?>? = emptyList()
     )
 }

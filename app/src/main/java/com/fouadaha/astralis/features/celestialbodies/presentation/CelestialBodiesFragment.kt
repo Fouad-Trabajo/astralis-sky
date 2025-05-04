@@ -14,13 +14,13 @@ import com.faltenreich.skeletonlayout.Skeleton
 import com.faltenreich.skeletonlayout.applySkeleton
 import com.fouadaha.astralis.R
 import com.fouadaha.astralis.core.domain.ErrorApp
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
+import com.fouadaha.astralis.core.domain.model.CelestialBodyType
 import com.fouadaha.astralis.core.presentation.hide
 import com.fouadaha.astralis.core.presentation.views.ErrorAppFactory
 import com.fouadaha.astralis.core.presentation.visible
 import com.fouadaha.astralis.databinding.DialogFiltersBinding
 import com.fouadaha.astralis.databinding.FragmentCelestialBodiesBinding
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBodyType
 import com.fouadaha.astralis.features.celestialbodies.presentation.adapter.CelestialBodiesAdapter
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.koin.android.ext.android.inject
@@ -38,7 +38,7 @@ class CelestialBodiesFragment : Fragment() {
     private lateinit var skeleton: Skeleton
     private val errorFactory: ErrorAppFactory by inject()
     private lateinit var celestialBodiesAdapter: CelestialBodiesAdapter
-    private var allBodies: List<CelestialBody> = emptyList()
+    private var allBodies: List<CelestialBodyCore> = emptyList()
     private val selectedFilters = mutableSetOf<CelestialBodyType>()
 
     override fun onCreateView(
@@ -93,7 +93,7 @@ class CelestialBodiesFragment : Fragment() {
     }
 
 
-    private fun bindData(celestialBodies: List<CelestialBody>?) {
+    private fun bindData(celestialBodies: List<CelestialBodyCore>?) {
         celestialBodies?.let {
             allBodies = it // Variable auxiliar para filtrar los cuerpos celestes
             applyFilters() // Aplica los filtros actuales antes de mostrar la lista
@@ -165,7 +165,7 @@ class CelestialBodiesFragment : Fragment() {
         val filteredBodies = if (selectedFilters.isEmpty()) {
             allBodies
         } else {
-            allBodies.filter { it.characteristics.celestialBodyType in selectedFilters }
+            allBodies.filter { it.characteristics?.celestialBodyType in selectedFilters }
         }
         celestialBodiesAdapter.submitList(filteredBodies)
     }

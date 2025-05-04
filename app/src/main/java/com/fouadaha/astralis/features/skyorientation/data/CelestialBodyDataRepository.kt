@@ -12,7 +12,7 @@ class CelestialBodyDataRepository(
     private val localDataSource: CelestialBodiesXmlLocalDataSource
 ) : CelestialBodiesRepository {
 
-    override suspend fun getCelestialBodies(): Result<List<CelestialBody>> {
+    override suspend fun getCelestialBodies(): Result<List<CelestialBody?>> {
         val localBodies = localDataSource.getLocalBodies().getOrNull() ?: emptyList()
         return if (localBodies.isEmpty()) {
             apiDataSource.getAllBodies().onSuccess {

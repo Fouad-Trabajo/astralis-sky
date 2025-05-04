@@ -1,7 +1,7 @@
 package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
 import com.fouadaha.astralis.core.domain.ErrorApp
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
 import org.koin.core.annotation.Single
 
 const val TTL = 30000L
@@ -9,7 +9,7 @@ const val TTL = 30000L
 @Single
 class CelestialBodiesRoomLocalDataSource(private val dao: CelestialBodiesDao) {
 
-    suspend fun getAll(): Result<List<CelestialBody>> {
+    suspend fun getAll(): Result<List<CelestialBodyCore>> {
         val entities = dao.getAll()
 
         val validEntity = entities.filter { entity ->
@@ -23,12 +23,12 @@ class CelestialBodiesRoomLocalDataSource(private val dao: CelestialBodiesDao) {
         }
     }
 
-    suspend fun saveAll(celestialBody: List<CelestialBody>) {
+    suspend fun saveAll(celestialBody: List<CelestialBodyCore>) {
         val entities = celestialBody.map { it.toEntity() }
         dao.saveAll(*entities.toTypedArray())
     }
 
-    suspend fun getById(id: String): Result<CelestialBody> {
+    suspend fun getById(id: String): Result<CelestialBodyCore> {
         val entity = dao.getById(id)
         return Result.success(entity.toDomain())
     }

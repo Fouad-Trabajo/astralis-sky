@@ -5,11 +5,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import com.fouadaha.astralis.R
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
 
 
-class CelestialBodiesAdapter(private val onClickListener: (CelestialBody) -> Unit) :
-    ListAdapter<CelestialBody, CelestialBodiesViewHolder>(CelestialBodyDiffUtil()) {
+class CelestialBodiesAdapter(private val onClickListener: (CelestialBodyCore) -> Unit) :
+    ListAdapter<CelestialBodyCore, CelestialBodiesViewHolder>(CelestialBodyDiffUtil()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CelestialBodiesViewHolder {
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.item_celestial_body, parent, false)
@@ -23,12 +23,15 @@ class CelestialBodiesAdapter(private val onClickListener: (CelestialBody) -> Uni
 }
 
 
-class CelestialBodyDiffUtil : DiffUtil.ItemCallback<CelestialBody>() {
-    override fun areItemsTheSame(oldItem: CelestialBody, newItem: CelestialBody): Boolean {
+class CelestialBodyDiffUtil : DiffUtil.ItemCallback<CelestialBodyCore>() {
+    override fun areItemsTheSame(oldItem: CelestialBodyCore, newItem: CelestialBodyCore): Boolean {
         return oldItem.id == newItem.id
     }
 
-    override fun areContentsTheSame(oldItem: CelestialBody, newItem: CelestialBody): Boolean {
+    override fun areContentsTheSame(
+        oldItem: CelestialBodyCore,
+        newItem: CelestialBodyCore
+    ): Boolean {
         return oldItem == newItem
     }
 }

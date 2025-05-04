@@ -3,17 +3,11 @@
     <item
         android:id="@+id/celestialBodiesFragment"
         android:enabled="true"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@drawable/ic_planets"
         android:title="@string/list_fragment" />
     <item
         android:id="@+id/skyOrientationFragment"
         android:enabled="true"
         android:icon="@drawable/ic_planets_orbits"
         android:title="@string/sky_fragment" />
-    <item
-        android:id="@+id/calendarFragment"
-        android:enabled="true"
-        android:icon="@drawable/ic_launcher_foreground"
-        android:title="@string/calendar_text" />
-
 </menu>

@@ -1,23 +1,24 @@
 package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
 import java.util.Date
 
-fun CelestialBody.toEntity(): CelestialBodyEntity =
+fun CelestialBodyCore.toEntity(): CelestialBodyEntity =
     CelestialBodyEntity(
-        this.id,
-        this.name,
-        this.description,
-        this.characteristics,
-        this.imageUrl,
+        id = this.id,
+        name = this.name,
+        description = this.description ?: "",
+        characteristics = this.characteristics!!,
+        imageUrl = this.imageUrl ?: "",
         date = Date()
     )
 
-fun CelestialBodyEntity.toDomain(): CelestialBody =
-    CelestialBody(
-        this.id,
-        this.name,
-        this.description,
-        this.characteristics,
-        this.imageUrl
+fun CelestialBodyEntity.toDomain(): CelestialBodyCore =
+    CelestialBodyCore(
+        id = this.id,
+        name = this.name,
+        description = this.description,
+        characteristics = this.characteristics,
+        orbitalParameters = null,
+        imageUrl = this.imageUrl
     )

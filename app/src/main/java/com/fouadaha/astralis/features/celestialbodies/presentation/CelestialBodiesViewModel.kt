@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.fouadaha.astralis.core.domain.ErrorApp
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
 import com.fouadaha.astralis.features.celestialbodies.domain.GetCelestialBodiesUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -35,6 +35,6 @@ class CelestialBodiesViewModel(private val useCase: GetCelestialBodiesUseCase) :
     data class UiState(
         val isLoading: Boolean = false,
         val errorApp: ErrorApp? = null,
-        val bodies: List<CelestialBody>? = emptyList()
+        val bodies: List<CelestialBodyCore>? = emptyList()
     )
 }

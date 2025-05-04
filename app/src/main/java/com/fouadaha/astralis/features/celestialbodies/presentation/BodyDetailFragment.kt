@@ -10,9 +10,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import coil.load
 import com.fouadaha.astralis.R
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
 import com.fouadaha.astralis.databinding.DialogCharacteristicsBodyBinding
 import com.fouadaha.astralis.databinding.FragmentBodyDetailBinding
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -48,7 +48,7 @@ class BodyDetailFragment : Fragment() {
         bodyDetailViewModel.uiState.observe(viewLifecycleOwner, bodyObserver)
     }
 
-    private fun bindData(body: CelestialBody?) {
+    private fun bindData(body: CelestialBodyCore?) {
         body?.let {
             binding.apply {
                 // Toolbar
@@ -66,18 +66,18 @@ class BodyDetailFragment : Fragment() {
         }
     }
 
-    private fun characteristicsDialog(body: CelestialBody) {
+    private fun characteristicsDialog(body: CelestialBodyCore) {
         _dialogBinding = DialogCharacteristicsBodyBinding.inflate(LayoutInflater.from(context))
 
         dialogBinding.apply { // Celestial body characteristics
-            bodyMass.text = getString(R.string.mass, body.characteristics.mass)
-            bodyDensity.text = getString(R.string.density, body.characteristics.density)
-            bodyTemperature.text = getString(R.string.temperature, body.characteristics.temperature)
-            bodyRadius.text = getString(R.string.radius, body.characteristics.radius)
-            bodyGravity.text = getString(R.string.gravity, body.characteristics.gravity)
+            bodyMass.text = getString(R.string.mass, body.characteristics?.mass)
+            bodyDensity.text = getString(R.string.density, body.characteristics?.density)
+            bodyTemperature.text =
+                getString(R.string.temperature, body.characteristics?.temperature)
+            bodyRadius.text = getString(R.string.radius, body.characteristics?.radius)
+            bodyGravity.text = getString(R.string.gravity, body.characteristics?.gravity)
             bodyType.text = getString(
-                R.string.celestial_body_type,
-                body.characteristics.celestialBodyType.toString()
+                R.string.celestial_body_type, body.characteristics?.celestialBodyType.toString()
             )
         }
 

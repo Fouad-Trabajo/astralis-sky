@@ -47,13 +47,13 @@ class OrbitView @JvmOverloads constructor(
 
         val maxDistance = celestialBodies
             .filter { it.isPlanet }
-            .maxOfOrNull { it.orbitalParameters.semiMajorAxis / 1e8f } ?: 1f
+            .maxOfOrNull { it.celestialBody.orbitalParameters!!.semiMajorAxis }?.div(1e8f) ?: 1f
         val scaleFactor = (width.coerceAtMost(height) / 2f) / maxDistance * 0.9f
 
         val scale = scaleFactor * globalScaleFactor
 
         celestialBodies.filter { it.isPlanet }.forEach { body ->
-            body.orbitalParameters.apply {
+            body.celestialBody.orbitalParameters!!.apply {
                 val majorAxis = semiMajorAxis / 1e8f
                 val eccentricity = eccentricity.toRadians()
                 val inclination = inclination.toRadians()
@@ -82,7 +82,12 @@ class OrbitView @JvmOverloads constructor(
                     inclination, node, centerX, centerY, scale
                 )
                 canvas.drawCircle(projectionX, projectionY, 10f, paintPlanet)
-                canvas.drawText(body.name, projectionX + 12f, projectionY - 12f, paintText)
+                canvas.drawText(
+                    body.celestialBody.name,
+                    projectionX + 12f,
+                    projectionY - 12f,
+                    paintText
+                )
             }
         }
         postInvalidateOnAnimation() //redibujar automáticamente
@@ -120,8 +125,8 @@ class OrbitView @JvmOverloads constructor(
     }
 
 
-    fun updateBodies(bodies: List<CelestialBody>) {
-        celestialBodies = bodies
+    fun updateBodies(bodies: List<CelestialBody?>) {
+        celestialBodies = bodies as List<CelestialBody>
         invalidate()
     }
 

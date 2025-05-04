@@ -1,19 +1,10 @@
 package com.fouadaha.astralis.features.skyorientation.domain
 
-data class CelestialBody(
-    val id: String,
-    val name: String,
-    val orbitalParameters: OrbitalParameters,
-    val isPlanet: Boolean
-)
+import com.fouadaha.astralis.core.domain.model.CelestialBodyCore
 
-data class OrbitalParameters(
-    val semiMajorAxis: Float,
-    val eccentricity: Float,
-    val inclination: Float,
-    val ascendingNodeLongitude: Float,
-    val argumentOfPeriapsis: Float,
-    val meanAnomaly: Float
+data class CelestialBody(
+    val celestialBody: CelestialBodyCore,
+    val isPlanet: Boolean
 )
 
 data class DeviceOrientation(

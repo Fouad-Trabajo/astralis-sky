@@ -7,7 +7,7 @@ import org.koin.core.annotation.Single
 @Single
 class CelestialBodyApiDataSource(private val celestialBodyApiService: CelestialBodyApiService) {
 
-    suspend fun getAllBodies(): Result<List<CelestialBody>> {
+    suspend fun getAllBodies(): Result<List<CelestialBody?>> {
         return apiCall { celestialBodyApiService.getAllBodies() }.map { celestialBodyApiModel ->
             celestialBodyApiModel.bodies.map { it.toDomain() }
         }
