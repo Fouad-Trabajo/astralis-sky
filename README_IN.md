@@ -19,8 +19,10 @@ calendar of astronomical events. (astronomical events calendar not implemented y
 
 ## Video 🎥
 
-Here’s a video showcasing the functionality and features of the app:  
-https://github.com/user-attachments/assets/c22207e4-c5a4-4720-b518-4caab5dbd3e6
+Here’s a video showcasing the functionality and features of the app:
+
+https://github.com/user-attachments/assets/f0f5a390-60e4-47d5-926b-47ba2faa542c
+
 
 
 ## ✨ Features
