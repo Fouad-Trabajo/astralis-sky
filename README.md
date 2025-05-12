@@ -22,6 +22,10 @@ A continuación, te dejo un video que muestra el funcionamiento y característic
 https://github.com/user-attachments/assets/900c8276-43d6-4a8d-b270-3ae6df0158c1
 
 
+https://github.com/user-attachments/assets/13227001-3049-4117-9d73-3bfd88b0ca35
+
+
+
 ## ✨ Características
 
 - Listado dinámico de cuerpos celestes con filtrado por tipo (planetas, estrellas, lunas…).
