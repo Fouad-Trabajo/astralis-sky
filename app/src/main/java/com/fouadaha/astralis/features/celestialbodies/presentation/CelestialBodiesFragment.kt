@@ -14,13 +14,13 @@ import com.faltenreich.skeletonlayout.Skeleton
 import com.faltenreich.skeletonlayout.applySkeleton
 import com.fouadaha.astralis.R
 import com.fouadaha.astralis.core.domain.ErrorApp
+import com.fouadaha.astralis.core.domain.model.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBodyType
 import com.fouadaha.astralis.core.presentation.hide
 import com.fouadaha.astralis.core.presentation.views.ErrorAppFactory
 import com.fouadaha.astralis.core.presentation.visible
 import com.fouadaha.astralis.databinding.DialogFiltersBinding
 import com.fouadaha.astralis.databinding.FragmentCelestialBodiesBinding
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBodyType
 import com.fouadaha.astralis.features.celestialbodies.presentation.adapter.CelestialBodiesAdapter
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.koin.android.ext.android.inject
@@ -160,12 +160,12 @@ class CelestialBodiesFragment : Fragment() {
         }
     }
 
-    // De esta manera se aplicn los filtros incluso si se navega a otro fragmento o vista detalle
+    // De esta manera se aplican los filtros incluso si se navega a otro fragmento o vista detalle
     private fun applyFilters() {
         val filteredBodies = if (selectedFilters.isEmpty()) {
             allBodies
         } else {
-            allBodies.filter { it.characteristics.celestialBodyType in selectedFilters }
+            allBodies.filter { it.characteristics?.celestialBodyType in selectedFilters }
         }
         celestialBodiesAdapter.submitList(filteredBodies)
     }

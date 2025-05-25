@@ -6,7 +6,6 @@
     <string name="description_error">Descripción del error</string>
     <string name="button_retry">Reintentar</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- Recycler view -->
     <string name="list_fragment">Lista de astros</string>
     <string name="body_description">Descipción del cuerpo celeste</string>
@@ -40,5 +39,6 @@
 
     <string name="sky_fragment">Sistema solar</string>
     <string name="calendar_text">Calendario estelar</string>
+    <string name="sensor_error">El sensor de rotación no está disponible</string>
 
 </resources>

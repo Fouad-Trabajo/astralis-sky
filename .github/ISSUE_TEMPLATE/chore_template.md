@@ -1,13 +1,13 @@
 ---
-name: Feature Template
-about: Main feature template
-title: "[Feature]: "
-labels: feature
+name: Chore Template
+about: Change a feature template
+title: "[Chore]: "
+labels: chore
 assignees: 'Fouad Aharchi Aharchi'
 
 ---
 
-## 📝 Descripción de la funcionalidad
+## 📝 Descripción del cambio
 
 ## 🛠️ Recursos
 
@@ -16,6 +16,7 @@ assignees: 'Fouad Aharchi Aharchi'
 ## 🆘 Ayuda
 
 ## ✅ Definición de hecho (DoD)
+
 - [ ]
 - [ ]
 

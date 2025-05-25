@@ -1,6 +1,6 @@
 package com.fouadaha.astralis.features.celestialbodies.data.remote.firebase
 
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBody
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 import org.koin.core.annotation.Single

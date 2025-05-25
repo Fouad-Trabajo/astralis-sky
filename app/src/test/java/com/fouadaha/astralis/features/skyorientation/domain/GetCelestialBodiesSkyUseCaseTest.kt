@@ -1,5 +1,7 @@
 package com.fouadaha.astralis.features.skyorientation.domain
 
+import com.fouadaha.astralis.core.domain.model.CelestialBody
+import com.fouadaha.astralis.core.domain.model.OrbitalParameters
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.coVerify
@@ -55,7 +57,10 @@ class GetCelestialBodiesSkyUseCaseTest {
                 id = "earth",
                 name = "Earth",
                 orbitalParameters = orbitalParams,
-                isPlanet = true
+                isPlanet = true,
+                description = null,
+                characteristics = null,
+                imageUrl = null
             )
         )
 

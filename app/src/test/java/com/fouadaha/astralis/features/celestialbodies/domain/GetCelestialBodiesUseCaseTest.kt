@@ -1,5 +1,8 @@
 package com.fouadaha.astralis.features.celestialbodies.domain
 
+import com.fouadaha.astralis.core.domain.model.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBodyType
+import com.fouadaha.astralis.core.domain.model.Characteristics
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.coVerify
@@ -57,7 +60,9 @@ class GetCelestialBodiesUseCaseTest {
                 name = "Mars",
                 description = "",
                 characteristics = characteristics,
-                imageUrl = ""
+                imageUrl = "",
+                isPlanet = null,
+                orbitalParameters = null
             )
         )
 

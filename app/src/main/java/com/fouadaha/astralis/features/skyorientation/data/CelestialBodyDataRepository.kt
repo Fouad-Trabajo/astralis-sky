@@ -1,9 +1,9 @@
 package com.fouadaha.astralis.features.skyorientation.data
 
+import com.fouadaha.astralis.core.domain.model.CelestialBody
 import com.fouadaha.astralis.features.skyorientation.data.local.CelestialBodiesXmlLocalDataSource
 import com.fouadaha.astralis.features.skyorientation.data.remote.api.CelestialBodyApiDataSource
 import com.fouadaha.astralis.features.skyorientation.domain.CelestialBodiesRepository
-import com.fouadaha.astralis.features.skyorientation.domain.CelestialBody
 import org.koin.core.annotation.Single
 
 @Single
