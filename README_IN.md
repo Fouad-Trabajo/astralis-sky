@@ -1,4 +1,4 @@
-# Astralia 🔭 - Final Project (DAM) 📋🚀
+# Astralis 🔭 - Final Project (DAM) 📋🚀
 
 *[README in Spanish](README.md)*
 
@@ -14,12 +14,12 @@ images, and categorized content.
 
 This application aims to implement an interface that moves with the device's motion,
 allowing it to show the real-time location of celestial bodies in the sky. It also includes a
-calendar of astronomical events.
+calendar of astronomical events. (astronomical events calendar not implemented yet)
 
 ## Video 🎥
 
 Here’s a video showcasing the functionality and features of the app:  
-![video funcionalidad  gif](https://github.com/user-attachments/assets/46ffea3e-be27-4976-bbbc-c08533f708b3)
+![video funcionalidad  gif](https://github.com/user-attachments/assets/119b8132-9315-4e9b-b036-ecdcf61bba25)
 
 ## ✨ Features
 
@@ -40,10 +40,11 @@ Here’s a video showcasing the functionality and features of the app:
 - **Local Database**: Room
 - **Remote Database**: Firebase Firestore
 - **Serialization**: Gson
+- **Connection with API**
 - **UI Components**:
     - Navigation Component
     - SkeletonLayout
-    - CustomErrorView (custom)
+  - CustomView (OrbitView dynamic interface)
 
 ## ⚡ Installation
 
