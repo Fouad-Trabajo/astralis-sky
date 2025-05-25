@@ -8,7 +8,7 @@ import com.fouadaha.astralis.features.celestialbodies.data.local.db.CelestialBod
 import com.fouadaha.astralis.features.celestialbodies.data.local.db.CelestialBodyEntity
 import com.fouadaha.astralis.features.celestialbodies.data.local.db.converters.CharacteristicsConverter
 
-@Database(entities = [CelestialBodyEntity::class], version = 2, exportSchema = false)
+@Database(entities = [CelestialBodyEntity::class], version = 3, exportSchema = false)
 @TypeConverters(DateConverter::class, CharacteristicsConverter::class)
 abstract class AstralisDataBase : RoomDatabase() {
     abstract fun celestialBodiesDao(): CelestialBodiesDao

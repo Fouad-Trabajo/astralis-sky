@@ -6,6 +6,7 @@ import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import android.widget.Toast
+import com.fouadaha.astralis.R
 import com.fouadaha.astralis.features.skyorientation.domain.DeviceOrientation
 
 class DeviceOrientationManager(private val context: Context) : SensorEventListener {
@@ -22,7 +23,7 @@ class DeviceOrientationManager(private val context: Context) : SensorEventListen
             sensorManager.registerListener(this, it, SensorManager.SENSOR_DELAY_UI)
         } ?: run {
             Toast.makeText(
-                context, "El sensor de rotación no está disponible", Toast.LENGTH_SHORT
+                context, context.getString(R.string.sensor_error), Toast.LENGTH_SHORT
             ).show()
         }
     }

@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import android.view.View
-import com.fouadaha.astralis.features.skyorientation.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBody
 import com.fouadaha.astralis.features.skyorientation.domain.DeviceOrientation
 import com.fouadaha.astralis.features.skyorientation.domain.Point3D
 import com.fouadaha.astralis.features.skyorientation.presentation.view.PERSPECTIVE
@@ -46,14 +46,15 @@ class OrbitView @JvmOverloads constructor(
         val centerY = height / 2f
 
         val maxDistance = celestialBodies
-            .filter { it.isPlanet }
-            .maxOfOrNull { it.orbitalParameters.semiMajorAxis / 1e8f } ?: 1f
+            .filter { it.isPlanet == true && it.orbitalParameters != null }
+            .mapNotNull { it.orbitalParameters?.semiMajorAxis }
+            .maxOrNull()?.div(1e8f) ?: 1f
         val scaleFactor = (width.coerceAtMost(height) / 2f) / maxDistance * 0.9f
 
         val scale = scaleFactor * globalScaleFactor
 
-        celestialBodies.filter { it.isPlanet }.forEach { body ->
-            body.orbitalParameters.apply {
+        celestialBodies.filter { it.isPlanet == true }.forEach { body ->
+            body.orbitalParameters?.apply {
                 val majorAxis = semiMajorAxis / 1e8f
                 val eccentricity = eccentricity.toRadians()
                 val inclination = inclination.toRadians()

@@ -9,6 +9,7 @@ const val PERSPECTIVE = 800f
 const val SPEED_ORBITAL = 0.8f
 private var startTime = System.nanoTime()
 
+//Función reutilizable para convertir grados a radianes
 fun Float.toRadians() = Math.toRadians(this.toDouble()).toFloat()
 
 // Función que permita crear objetos que vamos a pintar con los atributos que queramos
