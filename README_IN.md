@@ -1,4 +1,5 @@
-# Astralis 🔭 - Final Project (DAM) 📋🚀
+# Astralis 🔭 - Final Project (DAM) 📋🚀 
+
 
 *[README in Spanish](README.md)*
 
@@ -18,8 +19,11 @@ calendar of astronomical events. (astronomical events calendar not implemented y
 
 ## Video 🎥
 
-Here’s a video showcasing the functionality and features of the app:  
-![video funcionalidad  gif](https://github.com/user-attachments/assets/119b8132-9315-4e9b-b036-ecdcf61bba25)
+Here’s a video showcasing the functionality and features of the app:
+
+https://github.com/user-attachments/assets/f0f5a390-60e4-47d5-926b-47ba2faa542c
+
+https://github.com/user-attachments/assets/13227001-3049-4117-9d73-3bfd88b0ca35
 
 ## ✨ Features
 
