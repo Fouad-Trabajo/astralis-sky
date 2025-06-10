@@ -1,7 +1,7 @@
 package com.fouadaha.astralis.features.celestialbodies.data.local.db
 
 import com.fouadaha.astralis.core.domain.ErrorApp
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBody
 import org.koin.core.annotation.Single
 
 const val TTL = 30000L

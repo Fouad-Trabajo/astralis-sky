@@ -1,9 +1,9 @@
 package com.fouadaha.astralis.features.celestialbodies.data
 
+import com.fouadaha.astralis.core.domain.model.CelestialBody
 import com.fouadaha.astralis.features.celestialbodies.data.local.db.CelestialBodiesRoomLocalDataSource
 import com.fouadaha.astralis.features.celestialbodies.data.remote.firebase.CelestialBodiesFirebaseRemoteDataSource
 import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBodiesRepository
-import com.fouadaha.astralis.features.celestialbodies.domain.CelestialBody
 import org.koin.core.annotation.Single
 
 @Single

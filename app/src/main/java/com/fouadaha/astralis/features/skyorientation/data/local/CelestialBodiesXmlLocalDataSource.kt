@@ -3,7 +3,7 @@ package com.fouadaha.astralis.features.skyorientation.data.local
 import android.content.Context
 
 import com.fouadaha.astralis.R
-import com.fouadaha.astralis.features.skyorientation.domain.CelestialBody
+import com.fouadaha.astralis.core.domain.model.CelestialBody
 import com.google.gson.Gson
 import org.koin.core.annotation.Single
 

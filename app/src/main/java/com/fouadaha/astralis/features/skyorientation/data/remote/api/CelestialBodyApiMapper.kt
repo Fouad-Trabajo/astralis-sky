@@ -1,18 +1,19 @@
 package com.fouadaha.astralis.features.skyorientation.data.remote.api
 
-import com.fouadaha.astralis.features.skyorientation.domain.CelestialBody
-import com.fouadaha.astralis.features.skyorientation.domain.OrbitalParameters
+import com.fouadaha.astralis.core.domain.model.CelestialBody
+import com.fouadaha.astralis.core.domain.model.OrbitalParameters
 
 fun CelestialBodyApiModel.toDomain(): CelestialBody {
     return CelestialBody(
-        id = this.id, name = this.name, isPlanet = this.isPlanet,
+        id = id, name = name, isPlanet = isPlanet,
+        description = null, characteristics = null, imageUrl = null,
         orbitalParameters = OrbitalParameters(
-            semiMajorAxis = this.semiMajorAxis,
-            eccentricity = this.eccentricity,
-            inclination = this.inclination,
-            ascendingNodeLongitude = this.ascendingNodeLongitude,
-            argumentOfPeriapsis = this.argumentOfPeriapsis,
-            meanAnomaly = this.meanAnomaly
+            semiMajorAxis = semiMajorAxis,
+            eccentricity = eccentricity,
+            inclination = inclination,
+            ascendingNodeLongitude = ascendingNodeLongitude,
+            argumentOfPeriapsis = argumentOfPeriapsis,
+            meanAnomaly = meanAnomaly
         )
     )
 }
