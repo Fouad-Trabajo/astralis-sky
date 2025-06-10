@@ -1,6 +1,7 @@
 package com.fouadaha.astralis.features.astronomicalcalendar.domain
 
-import org.threeten.bp.LocalDate
+import java.time.LocalDate
+
 
 data class CalendarEvent(
     val id: String,
