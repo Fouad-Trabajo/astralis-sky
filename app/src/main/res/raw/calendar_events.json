@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Luna llena",
+    "description": "-.",
+    "date": "12/05/2025"
+  },
+  {
+    "id": 2,
+    "name": "Luna nueva",
+    "description": ".",
+    "date": "27/05/2025"
+  },
+  {
+    "id": 3,
+    "name": "Luna llena",
+    "description": ".",
+    "date": "11/06/2025"
+  },
+  {
+    "id": 4,
+    "name": "Luna nueva",
+    "description": "",
+    "date": "25/06/2025"
+  },
+  {
+    "id": 5,
+    "name": "Luna llena",
+    "description": "",
+    "date": "10/07/2025"
+  },
+  {
+    "id": 6,
+    "name": "Luna nueva",
+    "description": "",
+    "date": "24/07/2025"
+  },
+  {
+    "id": 7,
+    "name": "Luna llena",
+    "description": "",
+    "date": "09/08/2025"
+  },
+  {
+    "id": 8,
+    "name": "Luna nueva",
+    "description": ".",
+    "date": "23/08/2025"
+  },
+  {
+    "id": 9,
+    "name": "Lluvias de meteoros Perseidas",
+    "description": "Las Perseidas, el famoso espectáculo de meteoros, alcanzan su pico de visibilidad. No te lo pierdas",
+    "date": "12/08/2025"
+  },
+  {
+    "id": 11,
+    "name": "Las notificaciones funcionan",
+    "description": "Las notificaciones funcionan.",
+    "date": "04/08/2025"
+  }
+]

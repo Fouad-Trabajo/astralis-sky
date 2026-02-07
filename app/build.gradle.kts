@@ -77,7 +77,7 @@ dependencies {
     implementation(libs.room.runtime)
     ksp(libs.room.ksp)
     implementation(libs.room.coroutines)
-    //coil
+    //Coil
     implementation(libs.coil)
     //Skeleton
     implementation (libs.skeletonlayout)
@@ -87,8 +87,9 @@ dependencies {
     implementation(project.dependencies.platform(libs.firebaseBom))
     //Firestore
     implementation(libs.firebase.firestore)
-
-
+    //Calendar
+    implementation(libs.calendar.view)
+    implementation(libs.calendar.compose)
 
     //MockK
     testImplementation(libs.mockk)

@@ -24,9 +24,10 @@ junitJupiter = "6.0.2"
 room-version = "2.8.4"
 skeletonlayout = "6.0.0"
 fragmentKtx = "1.8.9"
-firebaseBom = "34.8.0"
+firebaseBom = "34.9.0"
 googleServices = "4.4.4"
 legacySupportV4 = "1.0.0"
+calendarViewVersion = "2.10.0"
 
 
 [libraries]
@@ -71,7 +72,8 @@ firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
 
 skeletonlayout = { module = "com.faltenreich:skeletonlayout", version.ref = "skeletonlayout" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
-
+calendar-view = { group = "com.kizitonwose.calendar", name = "view", version.ref = "calendarViewVersion" }
+calendar-compose = { group = "com.kizitonwose.calendar", name = "compose", version.ref = "calendarViewVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
