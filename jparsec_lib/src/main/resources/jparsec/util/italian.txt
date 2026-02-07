@@ -1,0 +1,1338 @@
+Sole
+Mercurio
+Venere
+Terra
+Luna
+Marte
+Giove
+Saturno
+Uranuo
+Nettuno
+Plutone
+Stereografico
+Sferico
+Cilindrico
+Equatoriale
+Galattico
+Orizzontale
+Eclittica
+Equatore
+Eclittica
+Piano Galattico
+Ascensione Retta
+Declinazione
+Orizzonte
+Longitudine Ellitica
+Latitudine Ellitica
+Longitudine Galattica
+Latitudine Galattica
+Azimuth
+Elevazione
+Magnitudine stellare
+Tipi di Stelle
+Doppie
+Variabile
+Ammasso Aperto
+Globulare
+Nebulosa
+Via Lattea
+Oggetto di Profondo Cielo
+Neb.plan.
+Galassia
+Gen
+Feb
+Mar
+Apr
+Mag
+Giu
+Lug
+Ago
+Set
+Ott
+Nov
+Dic
+Gennaio
+Febbraio
+Marzo
+Aprile
+Giugno
+Luglio
+Agosto
+Settembere
+Ottobre
+Novembre
+Dicembre
+Oculare Standard
+Occhio Umano
+Rifettore
+Rifrattre
+Binoculari
+Oggettivo
+Apparente
+Astrometrico
+Geometrico
+Asteroide
+Cometa
+Asteroide / cometa
+Sonda spaziale
+Satellite naturale
+Satellite Artificiale
+Stella
+Baricentro Terra-Luna (Earth-Moon barycenter)
+Non un pianeta
+Phobos
+Deimos
+Io
+Europa
+Ganimede
+Callisto
+Mimas
+Encelado
+Tethys
+dione
+Rhea
+titano
+Hyperion
+Giapeto
+Miranda
+Ariel
+Umbriel
+Titania
+Oberon
+Tritone
+Nereide
+Caronte
+Amalthea
+L'essere
+Adrastea
+Metis
+Atlante
+Prometeo
+Pandora
+Pan
+Cordelia
+Ophelia
+Cressida
+Bianca
+Desdemona
+Juliet
+Portia
+Rosalind
+Puck
+Proteus
+Larissa
+Despina
+Galatea
+Thalassa
+Naiade
+Himalia
+Elara
+Pasiphae
+Sinope
+Lysithea
+Carme
+Ananke
+Leda
+Epimeteo
+Janus
+Telesto
+Calipso
+Helene
+Phoebe
+Ida
+Gaspra
+Vesta
+Eros
+inizio della penumbra
+inizio della piena penumbra
+inizio della parziale
+inizio della totale
+fine della totale
+inizio dell'anulare
+fine dell'anulare
+fine della parziale
+fine della piena penumbra
+fine della penumbra
+Frazione del disco visibile
+Giorno Giuliano
+Magnitudine
+Magnutidne combinata
+Curva di luce
+di
+vicino a 
+e
+Eclissato
+Occultato
+In trasito
+Ombra in transito
+anulare
+totale
+parziale
+no eclisse
+Istogramma
+Grafico XY
+Grafico a torta
+Scatter
+Linea
+Passo
+Area
+Step area
+Polare
+Tempo
+Normale
+Spessore
+Anello
+Barra
+Barra impilata
+Barra 3d
+Barra impilata 3d
+Cascata
+Area impilata
+Linea 3d
+Nero
+Blu
+Ciano
+Grigio scuro
+Grigioc chiaro
+Grigio
+Verde
+Magenta
+arancia
+Rosa
+Rosso
+bianca
+Giallo
+Su
+Giù
+Sinistra
+Destra
+Al centro
+All'esterno
+Automatico
+Nessuna
+Lineare
+Interpolazione spline
+Interpolazione lineare
+Cerchio
+Quadrato
+Diamante
+Triangolo su
+Triangolo verso il basso
+Triangolo a sinistra
+Triangolo a destra
+Rettangolo orizzontale
+Rettangolo verticale
+Ellissi
+Punto
+Pentagono
+Croce
+Punti nel piano
+Non è possible salvare il grafico. Inserire il\nnome file completo inclusa una di queste estensioni:\njpg, png, bmp, gif, svg, eps, pdf.
+Errore
+Inserire un nome sorgente valido.
+Errore durante la risoluzione della fonte. Verifica che la tua connessione internet sia attiva.
+STAMPARE
+ACCETTARE
+CANCELLARE
+SALVARE
+CARICARE
+Vuoi sovrascrivere il file?
+Si prega di selezionare un file valido
+Attenzione
+Dettagli
+Impossibile stampare la finestra di dialogo.
+Impossibile stampare il grafico.
+Impossibile salvare la finestra di dialogo.
+Impossibile caricare la finestra di dialogo.
+La finestra di dialogo sembra avere dati errati. Si prega di verificare l'input.
+Continuum
+Continuum sottile
+Linea grande
+Linea media
+Linea breve
+Punti brevi
+Punti medi
+Punti grandi
+Nessuna linea
+alcune delle transizioni non possono essere lette a causa di un limite di memoria.
+generato automaticamente
+pacchetto
+sopra
+File
+Salvare
+Stampare
+Vicino
+Sfera
+Cilindro
+Toroide
+Doppio cono
+Ora locale
+Ora universale UT1
+Ora universale UTC
+Tempo terrestre
+Tempo dinamico baricentrico
+Regola dell'ora legale sconosciuta.
+nessuna informazione se l'ora legale esiste per il Paese
+UT1-UTC non disponibile, si sta utilizzando UT1 = UTC e si ignora il movimento polare.
+non può usare RADEX con questa molecola.
+Errore durante l'uso di RADEX nella posizione della mappa
+Calcoli di partenza
+il campionamento completo non è stato raggiunto. Diminuisci il passo della mappa o aumenta il raggio.
+completato
+nessun raggio da convogliare.
+intervallo di integrazione da
+a
+per
+supera l'intervallo accettabile
+troppo.
+Usato il valore della funzione di partizione
+non valido in posizione
+Saltando questo.
+il formato del file sembra non essere corretto. \nSi prega di verificare che sia un file binario valido \ncreato da questa applicazione.
+Catalogo dei flussi UV stellari
+Velocità
+Numero di canale
+Frequenza
+Sorgere
+Tramonto
+Transito
+Elevazione di transito
+Distanza
+Ore di luce
+Allungamento
+Angolo di fase
+Fase
+Longitudine eliocentrica dell'eclittica
+Latitudine eliocentrica ed eclittica
+Distanza eliocentrica
+Difetto di illuminazione
+Raggio angolare
+Luminosità superficiale
+Polo
+Longitudine subsolare
+Latitudine subsolare
+Angolo parallattico
+Bright limb angle
+Angolo di posizione dell'asse
+Angolo di posizione del polo
+Sistema
+Longitudine del meridiano centrale
+Ascensione retta Polare
+Declinazione Polare
+Costellazione
+Numero di osservazione
+Numero di blocco
+Versione dello spettro
+Fonte dello spettro
+Nome della linea
+Backend del telescopio
+Data di osservazione
+Data di riduzione
+Offset su X
+Offset su Y
+Tipo di coordinate
+Tipo di dati
+Qualità dei dati
+Numero di scansione
+Angolo di posizione
+UT di osservazione
+LST di osservazione
+Opacità
+Temperatura del sistema
+Tempo di integrazione
+Epoca di coordinate
+Lambda
+Beta
+Offset in lambda
+Offset in beta
+Sistema di proiezione
+Frequenza di riposo
+Numero di canali
+Canale di riferimento
+Risoluzione di frequenza
+Offset di frequenza
+Risoluzione di velocità
+Velocità al canale di riferimento
+Valore di soppressione
+Frequenza dell'immagine
+Tipo di velocità
+Efficienza del fascio
+Efficienza in avanti
+Rapporto guadagno immagine / segnale
+mm di vapore acqueo
+Pressione ambientale
+Temperatura ambiente
+Temperatura ambiente nella banda del segnale
+Temperatura del chopper
+Temperatura fredda
+Opacità nella banda del segnale
+Opacità nella banda dell'immagine
+Modalità di calibrazione
+Fattore di calibrazione applicato
+Elevazione del sito
+Potenza dell'atmosfera
+Potere dell'elicottero
+Potere del freddo
+Offset di longitudine per la misurazione del cielo
+Offset della latitudine per la misurazione del cielo
+Longitudine dell'osservatorio
+Latitudine dell'osservatorio
+Numero di record
+Lunghezza dell'intestazione dei dati
+Lunghezza dei dati di linea
+Lunghezza del record
+Numero di fasi
+Modalità di commutazione
+Offset di frequenza
+Tempo per fase
+Peso di ciascuna fase
+Offset Lambda di ogni fase
+Offset beta di ciascuna fase
+Versione interna
+RMS dello spettro
+Parametri di raccordo Gauss
+Transmitancy  // ANC Transmitancy
+Ritardo
+Risultati del modello AM
+Osservato
+Disco
+Free-free extrapolated //ANC Free-free extrapolated 
+Free-free // ANC Free-free
+Totale
+Flusso in funzione della lunghezza d'onda per  
+Silicato astronomico
+Carburo di silicio
+Silicato astronomia UV levigato
+Grafite
+Acqua ghiacciata
+Carbonio di PAH
+PAH carbonaceus neutro
+Miscela
+Geometria del modello
+asse x (AU)
+asse y (AU)
+Diagramma di rotazione
+Temperatura
+Tracce di Siess
+Luminosità (L_{@SUN})
+Età (yr)
+Numero di modello
+Lunghezza d'onda
+Raggio (AU)
+Temperatura come funzione del raggio
+Deviazione
+Bordo
+Midplane
+Superficie
+Interno
+Tentativo
+Disk+star+free-free
+Busta
+Effetto di variazione
+massa di polveri
+raggio esterno del disco
+temperatura di bordo
+pendenza della densità
+inclinazione
+nello strato interno
+nello strato superficiale
+abbondanza nello strato interno
+abbondanza nello strato superficiale
+Massa di polvere
+Raggio esterno (AU)
+Rim temperature
+Pendenza della densità
+Inclinazione (deg)
+abbondanza
+Dimensione massima del grano
+Opacità di
+dimensione massima di
+Indice spettrale di
+Indice spettrale
+Opacità per la dimensione massima di
+Indice spettrale per la dimensione massima di
+Imposta la data e l'ora
+Anno
+Imposta l'anno qui
+Ora
+Imposta l'ora qui
+Mese
+Imposta il mese qui
+minuto
+Imposta il minuto qui
+Giorno
+Imposta la giornata qui
+Secondo
+Imposta il secondo qui
+Calendario
+Imposta il calendario. Si noti che nel calendario islamico il giorno inizia al tramonto, ma qui si fa sempre riferimento alla mezzanotte
+Imposta la scala temporale
+Scala temporale
+Finestra temporale
+Imposta la data
+Imposta il calendario di input
+Calendario di input
+Imposta il calendario di output
+Calendario di output
+Finestra di dialogo di conversione del calendario
+Imposta il telescopio
+Telescopio
+Imposta l'oculare
+Oculare
+Finestra di dialogo del telescopio
+Imposta il corpo del bersaglio
+Bersaglio
+Corpo obiettivo
+Imposta il tipo di effemeride
+Genere
+Tipo di effemeride
+Imposta il metodo di calcolo da applicare
+Metodo
+Metodo per ridurre le coordinate
+Impostare l'algoritmo da utilizzare
+Algoritmo
+Seleziona risultati geocentrici o topocentrici
+Geocentrico
+topocentrico
+Per coordinate geocentriche
+Per le coordinate topocentriche
+Imposta l'equinozio come giorno di Giuliano
+Equinozio
+Equinozio. Impostare su -1.0 per ottenere il risultato all'equinozio di data
+Imposta la cornice
+Cornice
+Cornice di coordinate di output
+Dialogo delle effemeridi
+Imposta il nome della posizione
+Nome
+Imposta il posto qui
+Imposta il tipo di posizione
+Città
+Osservatorio
+Seleziona questo per una città
+Seleziona questo per un osservatorio
+Finestra di dialogo Observer
+Imposta le coordinate di input
+Longitudine
+Imposta la longitudine (o ascensione retta)
+Latitudine
+Imposta la latitudine (o declinazione)
+Imposta il tipo di coordinate di input
+Inserisci le coordinate
+tipo di coordinate
+Imposta il tipo delle coordinate di output
+Coordinate di uscita
+Dialogo di trasformazione delle coordinate
+Imposta le etichette
+Titolo del grafico
+Grafico x etichetta
+Imposta l'etichetta per l'asse x
+Grafico y etichetta
+Imposta l'etichetta per l'asse y
+Imposta il tipo di grafico e il sottotipo
+Tipo di grafico
+Sottotipo
+Imposta la serie
+NUOVO
+Serie
+Serie da trarre
+Crea / modifica
+Clicca per creare / modificare una serie
+Elimina
+Clic per cancellare una serie
+Imposta altri parametri
+Imposta la larghezza
+Imposta la larghezza in pixel
+Asse X nella scala log
+Controllare per disegnare l'asse x nella scala di registro
+Imposta l'altezza
+Imposta l'altezza in pixel
+Asse Y nella scala log
+Controllare di disegnare l'asse y nella scala di registro
+Mostra le barre di errore
+Seleziona per disegnare le barre di errore
+Finestra di dialogo grafico
+Imposta i punti dati
+Dataset
+Imposta il set di dati
+Imposta le proprietà principali
+Legenda del grafico
+Imposta la legenda
+Colori per i punti
+Forma del punto
+Punto di colore
+Forme per i punti
+Regressione
+Tipo di regressione
+Linea colpo
+Seleziona il tratto della linea
+Angolo del puntatore
+Seleziona l'angolo dei puntatori
+Mostra punti
+Controlla per disegnare i punti
+Mostra le frecce del puntatore
+Seleziona per disegnare le frecce del puntatore
+Mostra legenda
+Controlla per mostrare la legenda
+Dimensione della forma
+Imposta la dimensione della forma
+Dialogo di serie
+Proiezione
+Sistema di coordinate
+Longitudine centrale
+Imposta la longitudine centrale in gradi o ore, minuti, secondi
+Latitudine centrale
+Imposta la latitudine centrale in gradi o gradi, minuti, secondi
+Larghezza dell'immagine
+Altezza dell'immagine
+Nord in alto
+Controlla di disegnare verso nord verso l'alto
+Finestra di dialogo Sky Render
+Imposta le proprietà stella
+Imposta la temperatura effettiva in K
+Imposta la distanza in pc
+Massa
+Imposta la massa della stella in unità solari
+Inclinazione
+Impostare l'inclinazione in gradi rispetto alla vista frontale
+Imposta la luminosità della stella in unità solari
+Imposta le proprietà del disco
+Imposta la massa del disco (solo polvere) nelle unità solari
+Raggio esterno
+Imposta il raggio esterno in UA
+Rim temperature in K
+Density slope, lower than 0
+Imposta le proprietà del grano
+Strato interno
+Grani per lo strato interno
+Aggiungi / Modifica
+Clicca per aggiungere / modificare un grano
+Clicca per cancellare un grano
+Strato superficiale
+Grani per lo strato superficiale
+Livelli
+Numero di livelli
+Lunghezze d'onda
+Numero di lunghezze d'onda da calcolare
+Controlla di usare i modelli stellari Kurucz
+Rim as surface
+Controllare per trattare i grani del bordo come i grani della superficie
+Pure CG97
+Verifica di utilizzare un modello Chiang-Goldreich puro, deseleziona per Dullemond-like (con bordo)
+Unità di luminosità
+Controlla di mostrare il grafico in unità di luminosità anziché di flusso
+Unità solari
+Controlla di mostrare il grafico in unità solari invece di unità fisiche
+Dialogo di adattamento SED
+Imposta le proprietà della polvere
+Tipo di grano
+Seleziona la grana
+Dimensione massima
+Seleziona la dimensione massima del grano
+Size slope
+Select the grain distribution slope
+Abbondanza
+Imposta l'abbondanza relativa di questo grano
+Finestra di dialogo Dust grain
+Imposta il nome del file di uscita
+Nome del file
+Imposta il nome del file
+Clicca per selezionare un file
+Imposta il formato di output
+Estensione
+Formati di output consentiti
+Salva come finestra di dialogo
+Imposta il nome della fonte
+Sorgente
+Imposta la sorgente
+Risolvi con Simbad
+Clicca per risolvere usando Simbad
+Risolutore di Simbad
+Imposta le proprietà della busta
+Figura modello
+Seleziona la figura
+Imposta la massa dell'inviluppo in masse solari
+Imposta la pendenza della legge sulla potenza della densità (come valore negativo)
+Raggio iniziale
+Imposta il raggio iniziale della busta in UA
+Raggio finale
+Imposta il raggio finale della busta in UA
+Dimensione del fascio
+Imposta il raggio di convogliare con in secondi d'arco
+Strato di busta
+Grani per la busta. Lasciato vuoto per usare le opacità di Ossenkopf e Henning nel 1992
+Mantelli ghiacciati
+Seleziona i mantelli ghiacciati per le opacità di Ossenkopf e Henning del 1992, solo se i grani sono lasciati in bianco
+Imposta la longitudine della figura relativa al raggio esterno
+Imposta l'altitudine della figura rispetto al raggio esterno
+Imposta l'inclinazione della figura in gradi
+Busta in ombra
+Verifica di estrapolare il profilo di temperatura del disco per la busta (ombreggiato)
+Abilita busta
+Seleziona per rendere attiva la busta
+Imposta le proprietà di estinzione
+Il rapporto tra totale e selettivo assorbimento a visibile. Tipicamente da 3.1 a 5 per la Via Lattea, o 3.3 per LMC
+Il colore B-V osservato per questa stella
+Tipo Spettrale
+Il tipo spettrale della stella come OBAFGKM seguito dal numero del sottotipo
+Sequenza principale
+Controlla se la stella appartiene alla sequenza principale. Deseleziona per una stella gigante
+Abilita l'estinzione
+Seleziona per abilitare l'estinzione
+Finestra di dialogo busta
+Imposta le proprietà della figura
+Impostare l'inclinazione in gradi
+Imposta il raggio di convogliare con in arcseconds, formattare maggiorxminorexangolpe (grad)
+Shape param 1
+Impostare il parametro di forma 1 (altitudine della figura relativa al raggio esterno, alt cilindro iniziale o alt cono)
+Shape param 2
+Impostare il parametro di forma 2 (profondità della figura rispetto al raggio esterno o all'alt cilindro finale)
+Imposta le proprietà della linea
+Catalogare
+Transizione
+Imposta il catalogo, la linea e la transizione
+Impostare le proprietà del gas
+Funzione di densità
+Imposta la funzione di densità in cm ^ -3
+Funzione di temperatura
+Imposta la funzione della temperatura in K
+Funzione di abbondanza
+Imposta il passo della mappa in AU
+Funzione di velocità
+Velocity width function
+Max. integr. passo
+Imposta il passo di integrazione massima in UA
+Si consiglia di impostare la temperatura di fondo in K, 0 in quanto il processo di riduzione in genere lo elimina
+Passo Mappa
+Limiti di velocità
+Imposta i limiti di velocità della finestra dello spettro in km / s, da v0 a vf. 2 valori separati da uno spazio
+Abilita RADEX
+Verificare di abilitare RADEX se possibile
+Costruisci fuori mappa
+Controllare per considerare i punti che si trovano al di fuori della mappa visibile durante la convoluzione (influisce sul fattore di normalizzazione)
+Otticamente sottile
+Controllare per forzare l'approssimazione otticamente sottile
+Verificare di utilizzare l'interpolazione spline per ottenere il valore della funzione di partizione anziché lineare
+Nome del file di output
+Imposta il percorso del file .lmv di output o lascia vuoto per non creare alcun file
+Selezionare
+File di script / variabile
+Imposta il percorso dello script Gildas da eseguire dopo il modello e la variabile di output da recuperare, oppure lascia vuoto per eseguire nessuno script
+K a Jy Coeff
+Impostare il coefficiente di trasformazione K in Jy o lasciare vuoto per lavorare in unità Kelvin
+Parametri del modello
+Imposta le proprietà libere
+Modalità automatica
+Verifica di utilizzare la modalità automatica per calcolare le emissioni libere
+Pendenza forzata
+Imposta il valore della pendenza libera. Ignorato se la modalità automatica è abilitata
+Abilita gratuitamente
+Verificare di rendere attiva l'emissione libera
+Dialogo di emissione Free-Free
+! Imposta il set di dati. Utilizzare gli identificatori x, y, dx, dy, p per identificare le colonne \n! Per i valori di errore x, y, x e y. p sono i puntatori \n! opzionali. Qualsiasi altro identificatore verrà ignorato. \n! Gli identificatori possono essere ripristinati ovunque. Uso ! commentare qualsiasi \ n! linea. Puoi anche copiare / incollare dati su / da qualsiasi applicazione \ n! Esterna premendo Ctrl + C e Ctrl + V. \n! \nx y
+Gregoriano
+Giuliano
+Copto
+Etiopica
+Islamico (aritmetico)
+Ebraico
+Persiano (astronomico)
+Indù solare (vecchio)
+Francese
+Francese (modificato)
+Solare indù
+Persiano (vecchia aritmetica)
+Islamico (osservativo)
+Armeno
+Egiziano
+Imposta il catalogo e la molecola
+Molecola
+Min. frequenza
+Max. frequenza
+Max. temperatura
+Min. intensità
+Ricerca del catalogo
+Risultati
+Ricerca
+Imposta la frequenza minima in MHz
+Imposta la frequenza massima in MHz
+Imposta la temperatura massima della transizione in K o 0
+Impostare l'intensità minima nella scala di registro come indicata nei cataloghi o 0
+Risultati della ricerca
+Clic per eseguire
+Imposta i dati di input
+Seleziona il file di input
+Dati dai file di input. Può essere modificato
+Clic per caricare il file specificato e per impostare il contenuto dell'area di testo principale
+Dati in ingresso
+Caricare
+Inserisci
+Fai clic per aggiungere il contenuto dell'area di testo principale come nuovo file di interpolazione
+Imposta la posizione x da interpolare
+Posizione
+Numero di decimali
+Imposta il numero di posizioni decimali nei risultati
+Controllare per interpolare utilizzando il metodo spline, altrimenti lineare
+Linguetta
+Risultati dell'interpolazione
+Finestra di interpolazione
+Eseguire
+Errore durante l'esecuzione della ricerca. Controlla il tuo input.
+Errore durante il caricamento del file.
+Errore durante il salvataggio del file.
+Inserisci il nome del nuovo file nell'elenco.
+Inserisci il nome
+Errore durante l'interpolazione.
+Sondaggio
+Campo
+Nome sorgente
+Seleziona il sondaggio
+Campo visivo in gradi
+Coordinate
+Seleziona il tipo di coordinate
+Tavola dei colori
+Seleziona la tabella dei colori (LUT)
+Dimensione dell'immagine in pixel
+Dimensione
+Invertire
+Seleziona per invertire i livelli
+Controlla per mostrare la griglia
+Griglia
+Seleziona il ridimensionamento
+Ridimensionamento
+Contorni
+Mostra la sovrapposizione di contorni di un'altra indagine. Esempio: 408 mhz: Log: 6: 1: 1000 (6 livelli da 1 a 1000 nella scala di registro con sondaggio 408 mhz)
+Finestra di dialogo SkyView
+Nome di uno o più cataloghi Visir (separati da virgola) per richiedere e disegnare fonti
+Clicca per salvare l'immagine
+Errore durante l'esecuzione.
+Errore durante il salvataggio.
+PAH carbonato neutro
+Flusso
+Imposta l'angolo di posizione dell'asse in gradi
+Imposta il titolo
+Valori ausiliari
+Imposta le funzioni ausiliari come nome = valore. Qualsiasi "nome" può essere usato nelle funzioni ausiliari successive e in velocità, abbondanza, ...
+Clicca per aggiungere / modificare un valore
+Imposta la proiezione della velocità nell'asse z come una funzione in km / s (Vlsr)
+Imposta la velocità in funzione di km/s
+CIRCUMPOLARE/SEMPRE VISIBILE
+SCONOSCIUTO
+SEMPRE AL DI SOTTO DELL'ORIZZONTE
+Belinda
+Domenica
+Lunedi
+martedì
+mercoledì
+giovedi
+Venerdì
+Sabato
+Luna piena
+Nuova luna
+Il primo trimestre di Moon
+L'ultimo quarto della luna
+Eclissi lunare
+Eclissi solare
+Equinozio di primavera
+Equinozio d'autunno
+Solstizio d'estate
+Solstizio d'inverno
+Distanza minima di
+Distanza minima dal Sole di
+Allungamento minimo di
+Distanza massima di
+Distanza massima dal Sole di
+Allungamento massimo di
+Transito GRS
+Perigeo della luna
+L'apogeo della luna
+transit di Mercurio
+Transito di Venere
+Parallasse
+Giorno
+Separazione
+Satelliti di
+raggi
+Daphnis
+Tutte le molecole
+Controlla questo per cercare in tutte le molecole
+Centro
+Dettagli su
+Blocca il trascinamento
+Cerca oggetto
+Modifica la data
+Modifica osservatore
+Modifica la proiezione
+Modifica il sistema di coordinate
+Mostra pianeti
+Mostra le comete
+Mostra asteroidi
+Mostra sonde / satelliti artificiali / transnettuniani / SN / pioggia di meteoriti
+Disegna griglia
+Disegna limiti di costellazione
+Disegna nebulosa / Via Lattea
+Disegna etichette
+Imposta la magnitudine limite per le stelle
+Imposta la magnitudine limite per gli oggetti
+% obj non trovato sopra l'orizzonte
+Supernova
+Oggetto del sistema solare
+Tipo di oggetto
+posizione dello schermo
+Nome proprio
+Tipo; Double [sep ("), magA-B, periodo (yr), PA (°)]; Variabile [maxMag, minMag, punto (giorni), tipo]
+Found feature '%feature' on %object in position %x/%y (planetographic position %lon, %lat)
+Posizione del mouse % x,% y. Posizione planetografica: % lon,% lat
+Si prega di inserire il nome dell'oggetto da cercare.
+Seleziona oggetto
+Inserisci la nuova data nel seguente formato: \n anno, mese, giorno, ora, minuto, secondo, scala temporale. \nLa data corrente è %data. \nInserisci 'now' per l'istante corrente o '+ 10m'\n o '-10h' per aggiungere/sottrarre giorni (d), ore (h), \nminuti (m) o secondi (s). Le possibili scale di tempo sono \nLT, UTC, UT1, TT, TDB. Per anni a.C. inserire per \nesempio -10 per l'anno 10 a.C. (senza anno 0).
+Seleziona una nuova data
+adesso
+La posizione corrente è% loc. Inserisci il nome della nuova posizione o la posizione \ngeografica come 5 valori (nome, longitudine, latitudine (°), altezza (m), fuso orario (h))
+Seleziona una nuova posizione
+La posizione selezionata '% loc' non è stata trovata.
+Impossibile trovare la posizione
+Seleziona la proiezione del cielo.
+Seleziona la proiezione
+Seleziona il sistema di coordinate da usare.
+Seleziona il sistema di coordinate
+Niente stelle
+Seleziona la magnitudine limite per le stelle
+Magnitudo limitante per le stelle
+Nessun oggetto
+Seleziona la grandezza limite per gli oggetti
+Limite di grandezza per gli oggetti
+OFFSET_RA
+OFFSET_DEC
+VELOCITÀ
+FLUSSO
+VEL
+Offset RA
+Offset DEC
+Imposta contorni
+RA
+DEC
+ECL. Lon
+ECL. lat
+Gal. Lon
+Gal. lat
+Griglia x
+Griglia y
+Intensità
+Si prega di inserire il livello del contorno in unità fisiche.
+Livello di livello di ingresso
+Inserisci
+Elimina
+integrato
+Ripristina display
+Link Visualizza
+fonte
+Linea (back-end)
+Larghezza di velocità
+Mappa di separazione
+Seleziona l'unità dell'asse x
+Modalità mappa
+Grafico ad area
+Aggiornare
+Compensare
+in
+fascio
+Spettro a
+dRA
+dDEC
+Iso_surface_level
+Osservazioni
+Modello
+Punti nel piano
+Grafico
+Visualizzazione ad albero
+Modifica griglia
+Reimposta lo zoom
+Esportare
+Il numero di stelle trovate è %nstelle e le \nefemeridi precise per tutte loro potrebbero richiedere molto tempo. \nVuoi calcolare effemeridi accurate?
+Posizioni stellari accurate?
+regione della galassia
+quasar
+duplicato
+duplicarto in NGC
+stella/e
+non trovato
+Nebulosa
+Nebulosa Planetaria
+Cluster Globulare
+ibrido
+semi-durata parziale in
+semi-durata della fase totale in
+umbra
+non centrale
+Traiettoria di
+Imposta sotto i tre valori richiesti per la traiettoria: \nIl numero di giorni prima della data corrente, \nIl numero di giorni dopo la data corrente, \n l'intervallo tra i calcoli in giorni. \nOpzionalmente, aggiungi come quarto valore il numero di passaggi tra \nconsecutive etichette (3 per impostazione predefinita) e un quinto valore con \nunità per i primi tre valori se non si desidera giorni: \nsecondi (s), minuti (m), ore (h) o anni (y).
+Seleziona le date di inizio / fine della traiettoria
+Mostra i satelliti naturali
+Equidistante cilindrico
+Oggetto del cielo profondo
+Impossibile salvare l'immagine. L'immagine è stata invece copiata negli appunti.
+Calcolo, per favore aspetta ...
+Aggiorna il cielo
+inoltrare
+arretrato
+Tempo reale
+Statico
+Squalo di colori
+Sfondo bianco
+Sfondo nero
+Modalità notturna
+Anaglifo semplice sfondo bianco
+Anaglifo rosso-ciano semplice sfondo bianco
+Sfondo bianco anaglifi rosso-ciano
+Sfondo nero anaglifi rosso-ciano
+Modalità notte anaglifi rosso-ciano
+Sfondo bianco anaglifo verde-rosso semplice
+Sfondo bianco anaglifo verde-rosso
+Sfondo nero anaglifo verde-rosso
+Modalità notte anaglifo verde-rosso
+Disegna trame
+Nessuna texture
+Di bassa qualità
+Qualità standard
+Alta qualità
+Altissima qualità
+Qualità molto bassa
+Sono state trovate diverse posizioni
+Si prega di selezionare una delle seguenti posizioni.
+Impossibile esportare il grafico o copiarlo negli appunti
+Membro della cintura di Kuiper
+Stella variabile
+estremità
+Cinese
+Fenomeni transitori lunari
+Congiunzione
+di fronte a
+dietro a
+Occultamento
+Corpo principale
+Corpo secondario
+Tipo di evento
+Eclisse
+Transito ombra
+Mira stella variabile
+Stella variabile eclissante
+Eventi astronomici
+in cima a
+Massimo non visibile da
+Massimo
+ZHR
+Pioggia di meteoriti
+Minima
+Maxima
+radiante
+Calendario Maya
+Quadrantidi
+delta-Cancridi
+Alpha-Centauridi
+aelta-Leonids
+gamma-Normidi
+Virginidi
+Liridi
+pi-Puppidi
+eta-Aquaridi
+Sagittaridi
+Bootidi di giugno
+Pegasidi
+Phoenicidi di luglio
+Piscis Austrinidi
+Sud delta-Aquaridi
+alpha-Capricornidi
+Sud iota-Aquaridi
+Nord delta-Aquaridi
+Perseidi
+kappa-Cignidi
+Nord iota-Aquaridi
+alpha-Aurigidi
+delta-Aurigidi
+Piscidi
+Draconidi
+epsilon-Geminidi
+Orionidi
+Tauridi meridionali
+Tauridi settentrionali
+Leonidi
+Alpha Monocerotidi
+chi-Orionidi
+Phoenicidi
+Puppidi/Velidi
+Monocerotidi
+sigma-Idridi
+Geminidi
+Coma Berenicidi
+Ursidi
+a.C.
+Modalità di stampa
+GRS (Grande Macchia Rossa)
+Const. limite
+Oggetti e costellazioni
+Simboli per anmassi aperto/globulare, nebulosa, galassia e figura / limite della costellazione
+Eventi astronomici per %year
+Abilita l'inversione dell'immagine a causa del telescopio
+Mostra il cielo sotto l'orizzonte
+Opposizione
+Sole all'orizzonte dal cratere
+Il tempo della terra
+Saturno suona il bordo
+Mostra cataloghi aggiuntivi
+Città
+Polo nord eclittico, aU da sole
+Eclissi anulare
+inizia a essere visibile ad occhio nudo
+finisce per essere visibile ad occhio nudo
+con massima magnitudine (% mag, allungamento% elong °)
+Saturno squilla nella massima apertura
+Nessuna eclissi
+a partire dal
+Eclissi solare totale attivata
+Eclissi solare anulare attivata
+Eclipse solare parziale attivata
+Eclipse massimo
+Elevazione del sole
+Primo contatto
+Ultimo contatto
+Grandezza di Eclipse
+Durata totale della fase
+Durata della fase anulare
+Eclipse lunare totale attivata
+Eclissi lunare parziale su
+Eclissi lunari penumbrali
+Oposition in RA al momento
+Grandezza Umbrale
+Magnitudo penumbrica
+al sorgere della Luna
+al calare della Luna
+L'umbra totale inizia
+L'umbra totale finisce
+Inizia la fase parziale
+Fasi parziali
+Inizia la fase penumbrale
+La fase penombra finisce
+Elevazione della luna
+Prossima eclissi solare
+Prossima eclissi lunare
+NESSUN SORGERE/TRAMONTO/TRANSITO
+Eclissi completa visibile
+Eclissi non visibile
+Primo contatto visibile dopo l'alba (a destra) / prima del tramonto (a sinistra)
+Ultimo contatto visibile dopo l'alba (a destra) / prima del tramonto (a sinistra)
+Tutto eclissi visibile
+d.C.
+Sono state trovate diverse porte seriali
+Selezionare in quale di queste porte seriali è collegato il telescopio
+Pannello di controllo del telescopio
+Veloce
+Lento
+Slew
+Trova
+Centro
+Guida
+Vai a
+Oggetto
+RA
+DEC
+Spegnimento
+Messa a fuoco
+Velocità di messa a fuoco
+Mossa
+Velocità
+Stop
+Sincronizzazione
+Collegare
+Parcheggiare
+Disconnettere
+AZ
+EL
+Lon
+Lat
+Fuso orario
+DST
+Assicurati che il tuo telescopio sia configurato correttamente per puntare \nper il Sole prima di selezionare il pulsante goto
+Impossibile trovare '%obj'
+Non posso andare in questa posizione. Si prega di controllare l'oggetto è sopra l'orizzonte.
+Cupola
+Aperto
+Impossibile ruotare la cupola
+Tiro
+Tipo di immagine
+Filtro
+Risoluzione dell'immagine
+Dark
+Flat
+Sulla Sorgente
+Test
+Otturatore
+Tempo in modalità bulbo
+Orientamento
+Sono state trovate diverse fotocamere
+Per favore, seleziona la videocamera da usare
+Fotocamera
+Fotocamera / telescopio / cupola non pronti
+Il telescopio o la cupola non sono pronti o la fotocamera sta attualmente scattando
+Apertura f /
+Impossibile scattare la foto. Dettagli:
+unrefracted
+Le condizioni meteorologiche sono inadeguate per continuare le osservazioni. L'osservatorio è stato spento a tempo indeterminato.
+Lampadina
+Campo visivo (°)
+Pianeti extrasolari
+Radiosorgente
+Catalogo IRAM
+Telescopio Virtuale
+Numero di scatti
+Macchina fotografica virtuale
+Pannello di controllo delle osservazioni
+Osservazione
+Finestra adatta
+Modalità colore
+Automatico / combinare
+Scala dell'immagine
+Informazioni sull'immagine
+Autoriduzione
+Elenco di fonti
+Ridurre
+Elimina
+Tabella di osservazioni
+Abilitato
+Tipo (raw / jpg)
+Data
+Attiva / disattiva griglia di coordinate
+Impossibile ridurre questa immagine
+Questa immagine è disabilitata dalla tabella. Puoi abilitarlo prima di premere il pulsante di riduzione.
+Elenco di fonti non disponibili in questo tipo di immagine
+Mediano
+Media
+Colpo multiplo
+Per favore, seleziona il metodo di combinazione dei frame
+Metodo di combinazione del telaio
+Per favore, seleziona una di queste opzioni
+Selezione di scatti multipli
+Scatti
+La modalità di scatto multiplo non è disponibile per questo tipo di immagine
+Modalità scatto multiplo non disponibile
+Valori per l'esecuzione precedente
+Posizione dello schermo
+Sky catalog position
+Sky solved position
+Posizione rms in RA / DEC (\")
+Flusso / grandezza del catalogo / magnitudine computata
+sì
+no
+Annulla parcheggio
+Attiva / disattiva scala di intensità lineare / logaritmica
+Mostra l'elenco degli oggetti
+Disabilitato
+Ritaglio di sigma Kappa
+Pila
+Opzioni di configurazione
+Informazioni di progetto
+Osservatore
+Descrizione
+Opzioni del telescopio
+Textures in camera virtuale
+Paneti
+Opzioni di allarme meteo
+Umidità massima (%)
+Velocità del vento massima (km / s)
+Temperatura massima (C)
+Temperatura minima (C)
+Opzioni di elaborazione
+Combinazione Dark/Flat
+Orientamento dell'immagine
+Media del frame
+Modalità di interpolazione
+Drizzle
+Il vicino più prossimo
+Bilineare
+Bicubico
+ponderazione
+Punto più vicino
+Opzioni di SExtractor
+Area min (pix)
+Sigma
+Tipo di oggetto min
+Fonti massime
+Opzioni della videocamera #
+Errore di posizione (°)
+Intervallo tra colpi (s)
+Direzione oscura
+Appartamento dir
+In dir
+Dir ridotta
+Diretto impilato
+I seguenti parametri non sono stati impostati a causa di un errore nei dati di input
+Nord in alto, a destra a destra
+Nord giù, Est destra
+Nord in alto, a sinistra a est
+Penumbral
+Full penumbral
+Cambia dall'ora legale all'ora legale a causa dell'ora legale
+Cambia dall'ora legale all'ora solare a causa dell'ora legale
+Vicino all'oggetto della terra
+meteore
+La massima declinazione della luna
+La declinazione minima della luna
+Altro
+Inesistente
+Nodo ascendente della luna
+Nodo discendente della Luna
+Non è possibile impilare / media una miscela di immagini risolte astrometricamente e non risolte
+Media
+Dir mediato
+Conferma la cancellazione dell'immagine
+Rimuovi il file?
+Lo stesso che per oscurità / appartamenti
+Intensità minima
+Intensità massima
+Metodo di normalizzazione
+Tutti
+Sovrapposizione immagine DSS
+Nei tempi antichi si consiglia di utilizzare solo le scale temporali Tempo terrestre o Tempo dinamico baricentrico
+Messier/Caldwell
+Tipo
+ammasso aperto
+Abilita la modalità orizzonte
+Data di Pasqua
+Data di Pentecoste
+Non invertito
+Barlow / riduttore
+Distanza dal Sole e dalla Terra di
+Nova
+Numero di rotazione Carrington
+Numero di lunazione marrone
+Ceres
+Pallade
+Lutetia
+Davida
+Steins
+Itokawa
+9P / Tempel 1
+19P / Borrelly
+Nutazione
+Librazione
+Baricentro del sistema solare
+Iridium Flare
+inizio
+fine
+max
+anniluce
+superluna
+Pulsante
+Eruttiva
+Ad Eclissi
+Rotante
+NESSUN SORGERE
+NESSUN TRANSITO
+NESSUN TRAMONTO
+qui
+Supergalattico
+Longitudine supergalattica
+Latitudine supergalattica
+Dicotomia/Quadratura
+Oggetto
+Features

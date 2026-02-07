@@ -1,0 +1,1338 @@
+Sun
+Mercury
+Venus
+Earth
+Moon
+Mars
+Jupiter
+Saturn
+Uranus
+Neptune
+Pluto
+Stereographical
+Spherical
+Cylindrical
+Equatorial
+Galactical
+Horizontal
+Ecliptical
+Equator
+Ecliptic
+Galactic plane
+Right ascension
+Declination
+Horizon
+Ecliptic longitude
+Ecliptic latitude
+Galactic longitude
+Galactic latitude
+Azimuth
+Elevation
+Stellar magnitudes
+Types of stars
+Double
+Variable
+Open cluster
+Globular
+Nebulose
+Milky Way
+Deep sky objects
+Plan.neb.
+Galaxy
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+Default ocular
+Human eye
+Reflector
+Refractor
+Binoculars
+Objective
+Apparent
+Astrometric
+Geometric
+Asteroid
+Comet
+Asteroid / comet
+Space probe
+Natural satellite
+Artificial satellite
+Star
+Earth-Moon barycenter
+Not a planet
+Phobos
+Deimos
+Io
+Europa
+Ganymede
+Callisto
+Mimas
+Enceladus
+Tethys
+Dione
+Rhea
+Titan
+Hyperion
+Iapetus
+Miranda
+Ariel
+Umbriel
+Titania
+Oberon
+Triton
+Nereid
+Charon
+Amalthea
+Thebe
+Adrastea
+Metis
+Atlas
+Prometheus
+Pandora
+Pan
+Cordelia
+Ophelia
+Cressida
+Bianca
+Desdemona
+Juliet
+Portia
+Rosalind
+Puck
+Proteus
+Larissa
+Despina
+Galatea
+Thalassa
+Naiad
+Himalia
+Elara
+Pasiphae
+Sinope
+Lysithea
+Carme
+Ananke
+Leda
+Epimetheus
+Janus
+Telesto
+Calypso
+Helene
+Phoebe
+Ida
+Gaspra
+Vesta
+Eros
+penumbral begins
+full penumbral begins
+partial begins
+total begins
+total ends
+annular begins
+annular ends
+partial ends
+full penumbral ends
+penumbral ends
+Visible disk fraction
+Julian day
+Magnitude
+Combined magnitude
+Light curve
+of
+by
+and
+Eclipsed
+Occulted
+Transiting
+Shadow transiting
+annular
+total
+partial
+no eclipse
+Category chart
+XY chart
+Pie chart
+Scatter
+Line
+Step
+Area
+Step area
+Polar
+Time
+Normal
+Thick
+Ring
+Bar
+Stacked bar
+Bar 3d
+Stacked bar 3d
+Water fall
+Stacked area
+Line 3d
+Black
+Blue
+Cyan
+Dark gray
+Light gray
+Gray
+Green
+Magenta
+Orange
+Pink
+Red
+White
+Yellow
+Up
+Down
+Left
+Right
+To center
+To outside
+Automatic
+None
+Linear
+Spline interpolation
+Linear interpolation
+Circle
+Square
+Diamond
+Triangle up
+Triangle down
+Triangle left
+Triangle right
+Horizontal rectangle
+Vertical rectangle
+Ellipse
+Point
+Pentagon
+Crux
+Points in plane
+Could not save the chart. Please enter the full\nfile name including one of these extensions:\njpg, png, bmp, gif, svg, eps, pdf.
+Error
+Insert a valid source name.
+Error while solving source. Check your internet connection is active.
+PRINT
+ACCEPT
+CANCEL
+SAVE
+LOAD
+Do you want to overwrite the file?
+Please select a valid file
+Warning
+Details
+Cannot print the dialog.
+Could not print the chart.
+Could not save the dialog.
+Could not load the dialog.
+The dialog seems to have incorrect data. Please check the input.
+Continuum
+Continuum thin
+Line large
+Line medium
+Line short
+Points short
+Points medium
+Points large
+No line
+some of the transitions could not be read due to a memory limit.
+automatically generated
+package
+on
+File
+Save
+Print
+Close
+Sphere
+Cylinder
+Toroid
+Double cone
+Local time
+Universal Time UT1
+Universal time UTC
+Terrestrial time
+Barycentric dynamical time
+unknown daylight saving time rule.
+no information about daylight saving time exists for country
+UT1-UTC not available, using UT1 = UTC and ignoring pole movement.
+cannot use RADEX with this molecule.
+Error using RADEX in map position
+Starting calculations
+full sampling is not reached. Decrease map step or increase the beam.
+completed
+no beam to convolve.
+integration interval from
+to
+for
+exceeds aceptable interval
+too much.
+Using value of partition function
+not valid in position
+Skipping this one.
+the format of the file seems to be incorrect.\nPlease check that it is a valid binary file\ncreated by this application.
+Catalog of stellar UV fluxes
+Velocity
+Channel number
+Frequency
+Rise
+Set
+Transit
+Transit elevation
+Distance
+Light time
+Elongation
+Phase angle
+Phase
+Heliocentric ecliptic longitude
+Heliocentric ecliptic latitude
+Heliocentric distance
+Defect of illumination
+Angular radius
+Surface brightness
+Pole
+Subsolar longitude
+Subsolar latitude
+Paralactic angle
+Bright limb angle
+Position angle of axis
+Position angle of pole
+System
+Longitude of central meridian
+Pole right ascension
+Pole declination
+Constellation
+Observation number
+Number of block
+Version of the spectrum
+Source of the specturm
+Name of line
+Backend of the telescope
+Date of observation
+Date of reduction
+Offset on X
+Offset on Y
+Type of coordinates
+Type of data
+Quality of data
+Scan number
+Position angle
+UT of observation
+LST of observation
+Opacity
+System temperature
+Integration time
+Epoch of coordinates
+Lambda
+Beta
+Offset in lambda
+Offset in beta
+Projection system
+Rest frequency
+Number of channels
+Reference channel
+Frequency resolution
+Frequency offset
+Velocity resolution
+Velocity at reference channel
+Blanking value
+Image frequency
+Type of velocity
+Beam efficiency
+Forward efficiency
+Image/Signal gain ratio
+mm of water vapor
+Ambient pressure
+Ambient temperature
+Atmosphere temperature in signal band
+Chopper temperature
+Cold temperature
+Opacity in signal band
+Opacity in image band
+Calibration mode
+Applied calibration factor
+Site elevation
+Power of atmosphere
+Power of chopper
+Power of cold
+Longitude offset for sky measurement
+Latitude offset for sky measurement
+Longitude of the observatory
+Latitude of the observatory
+Number of records
+Length of data header
+Length of line data
+Length of recod
+Number of phases
+Switching mode
+Frequency offsets
+Time per phase
+Weight of each phase
+Lambda offsets of each phase
+Beta offsets of each phase
+Internal version
+RMS of the spectrum
+Gauss fitting parameters
+Transmitancy
+Time delay
+AM model results
+Observed
+Disk
+Free-free extrapolated
+Free-free
+Total
+Flux as function of wavelength for
+Astronomical silicate
+Silicon carbide
+Smoothed UV astronomical silicate
+Graphite
+Water ice
+PAH carbonaceus ion
+PAH carbonaceus neutral
+Mixture
+Model geometry
+x axis (AU)
+y axis (AU)
+Rotational diagram
+Temperature
+Siess tracks
+Luminosity (L_{@SUN})
+Age (yr)
+Model number
+Wavelength
+Radius (AU)
+Temperature as function of radius
+Deviation
+Rim
+Midplane
+Surface
+Interior
+Tentative
+Disk+star+free-free
+Envelope
+Effect of varying
+dust mass
+disk outer radius
+rim temperature
+density slope
+inclination
+in interior layer
+in surface layer
+abundance in interior layer
+abundance in surface layer
+Dust mass
+Outer radius (AU)
+Rim temperature
+Density slope
+Inclination (deg)
+abundance
+Grain maximum size
+Opacity of
+maximum size of
+Spectral index of
+Spectral index
+Opacity for maximum size of
+Spectral index for maximum size of
+Set the date and time
+Year
+Set the year here
+Hour
+Set the hour here
+Month
+Set the month here
+Minute
+Set the minute here
+Day
+Set the day here
+Second
+Set the second here
+Calendar
+Set the calendar. Note that in the Islamic calendar the day begins at sunset, but here is always refered to the midnight
+Set the time scale
+Time scale
+Time dialog
+Set the date
+Set the input calendar
+Input calendar
+Set the output calendar
+Output calendar
+Calendar conversion dialog
+Set the telescope
+Telescope
+Set the ocular
+Ocular
+Telescope dialog
+Set the target body
+Target
+Target body
+Set the ephemeris type
+Type
+Ephemeris type
+Set the calculation method to apply
+Method
+Method to reduce the coordinates
+Set the algorithm to use
+Algorithm
+Select geocentric or topocentric results
+Geocentric
+Topocentric
+For geocentric coordinates
+For topocentric coordinates
+Set the equinox as Julian day
+Equinox
+Equinox. Set to -1.0 to obtain result at equinox of date
+Set the frame
+Frame
+Frame of output coordinates
+Ephemeris dialog
+Set the location name
+Name
+Set the place here
+Set the location type
+City
+Observatory
+Select this for a city
+Select this for an observatory
+Observer dialog
+Set the input coordinates
+Longitude
+Set the longitude (or right ascension)
+Latitude
+Set the latitude (or declination)
+Set the type of the input coordinates
+Input coordinates
+type of coordinates
+Set the type of the output coordinates
+Output coordinates
+Coordinates transform dialog
+Set the labels
+Chart title
+Chart x label
+Set the label for x axis
+Chart y label
+Set the label for y axis
+Set the chart type and subtype
+Chart type
+Subtype
+Set the series
+NEW
+Series
+Series to be drawn
+Create/Edit
+Clic to create/edit a series
+Delete
+Clic to delete a series
+Set other parameters
+Set the width
+Set the width in pixels
+X axis in log scale
+Check to draw x axis in log scale
+Set the height
+Set the height in pixels
+Y axis in log scale
+Check to draw y axis in log scale
+Show error bars
+Check to draw error bars
+Chart dialog
+Set the data points
+Dataset
+Set the dataset
+Set the main properties
+Chart legend
+Set the legend
+Colors for the points
+Point shape
+Point color
+Shapes for the points
+Regression
+Regression type
+Line stroke
+Select line stroke
+Pointer angle
+Select pointers angle
+Show points
+Check to draw the points
+Show pointer arrows
+Check to draw pointer arrows
+Show legend
+Check to show the legend
+Shape size
+Set the shape size
+Series dialog
+Projection
+Coordinate system
+Central longitude
+Set the central longitude in degrees or hours, minutes, seconds
+Central latitude
+Set the central latitude in degrees or degrees, minutes, seconds
+Image width
+Image height
+North up
+Check to draw north upwards
+Sky Render dialog
+Set the star properties
+Set the effective temperature in K
+Set the distance in pc
+Mass
+Set the star mass in solar units
+Inclination
+Set the inclination in degrees respect to a face-on view
+Set the star luminosity in solar units
+Set the disk properties
+Set the disk mass (only dust) in solar units
+Outer radius
+Set the outer radius in AU
+Rim temperature in K
+Density slope, lower than 0
+Set the grain properties
+Interior layer
+Grains for the interior layer
+Add/Edit
+Clic to add/edit a grain
+Clic to delete a grain
+Surface layer
+Grains for the surface layer
+Layers
+Number of layers
+Wavelengths
+Number of wavelengths to compute
+Check to use Kurucz stellar models
+Rim as surface
+Check to treat the rim grains as the surface grains
+Pure CG97
+Check to use a pure Chiang-Goldreich model, uncheck for Dullemond-like (with rim)
+Luminosity units
+Check to show the chart in units of luminosity instead of flux
+Solar units
+Check to show the chart in solar units instead of physical units
+SED fit dialog
+Set the dust properties
+Grain type
+Select the grain
+Max size
+Select the maximum grain size
+Size slope
+Select the grain distribution slope
+Abundance
+Set the relative abundance of this grain
+Dust grain dialog
+Set the ouput file name
+File name
+Set the file name
+Clic to select a file
+Set the output format
+Extension
+Output formats allowed
+Save as dialog
+Set the source name
+Source
+Set the source
+Solve with Simbad
+Clic to solve using Simbad
+Simbad solver
+Set the envelope properties
+Model figure
+Select the figure
+Set the envelope mass in solar masses
+Set the density power law slope (as negative value)
+Initial radius
+Set the initial radius of the envelope in AU
+Final radius
+Set the final radius of the envelope in AU
+Beam size
+Set the beam to convolve with in arcseconds
+Envelope layer
+Grains for the envelope. Left blank to use Ossenkopf & Henning 1992 opacities
+Icy mantles
+Select the icy mantles for Ossenkopf & Henning 1992 opacities, only if the grains are left blank
+Set the longitude of the figure relative to the outer radius
+Set the altitude of the figure relative to the outer radius
+Set the inclination of the figure in degrees
+Envelope in shadow
+Check to extrapolate disk temperature profile for the envelope (shadowed)
+Enable envelope
+Check to make the envelope active
+Set the extinction properties
+The ratio of total to selective absorption at visible. Typically 3.1 to 5 for the Milky Way, or 3.3 for the LMC
+The B-V color observed for this star
+Spectral type
+The spectral type of the star as OBAFGKM followed by the subtype number
+Main sequence
+Check if the star belongs to the main sequence. Uncheck for a giant star
+Enable extinction
+Check to enable extinction
+Envelope dialog
+Set the figure properties
+Set the inclination in degrees
+Set the beam to convolve with in arcseconds, format majorxminorxangle (deg)
+Shape param 1
+Set the shape parameter 1 (altitude of the figure relative to the outer radius, cylinder initial alt, or cone alt)
+Shape param 2
+Set the shape parameter 2 (depth of the figure relative to the outer radius or cylinder final alt)
+Set the line properties
+Catalog
+Transition
+Set the catalog, line, and transition
+Set gas properties
+Density function
+Set the density function in cm^-3
+Temperature function
+Set the temperature function in K
+Abundance function
+Set the map step in AU
+Velocity function
+Velocity width function
+Max. integr. step
+Set the maximum integration step in AU
+Set the background temperature in K, 0 is recommended since the reduction process typically eliminates it
+Map step
+Velocity limits
+Set the spectrum window velocity limits in km/s, from v0 to vf. 2 values separated by one space
+Enable RADEX
+Check to enable RADEX if possible
+Convolve outside map
+Check to consider points that lies outside the visible map when convolving (affects normalization factor)
+Optically thin
+Check to force optically thin approximation
+Check to use spline interpolation to obtain the value of the partition function instead of linear
+Output file name
+Set the path of the output .lmv file, or leave blank to create no file
+Select
+Script file/variable
+Set the path of the Gildas script to execute after the model and the output variable to retrieve from it, or leave blank to execute no script
+K to Jy coeff
+Set the K to Jy transform coefficient, or leave blank to work in Kelvin units
+Model parameters
+Set the free-free properties
+Automatic mode
+Check to use automatic mode to calculate free-free emission
+Force slope
+Set the value of the free-free slope. Ignored if automatic mode is enabled
+Enable free-free
+Check to make the free-free emission active
+Free-Free emission dialog
+!Set the dataset. Use identifiers x, y, dx, dy, p to identify\n!columns for x, y, x error, and y error values. p are the\n!optional pointers. Any other identifier will be ignored.\n!Identifiers can be reset anywhere. Use ! to comment any\n!line. You can also copy/paste data to/from any external\n!application by pressing Ctrl+C and Ctrl+V.\n!\nx y
+Gregorian
+Julian
+Coptic
+Ethiopic
+Islamic (arithmetic)
+Hebrew
+Persian (astronomical)
+Hindu solar (old)
+French
+French (modified)
+Hindu solar
+Persian (old arithmetic)
+Islamic (observational)
+Armenian
+Egyptian
+Set the catalog and molecule
+Molecule
+Min. frequency
+Max. frequency
+Max. temperature
+Min. intensity
+Catalog search
+Results
+Search
+Set the minimum frequency in MHz
+Set the maximum frequency in MHz
+Set the maximum temperature of the transition in K, or 0
+Set the minimum intensity in log scale as given in the catalogs, or 0
+Results of the search
+Clic to execute
+Set the input data
+Select the input file
+Data from the input files. Can be edited
+Clic to load the specified file and to set the contents of the main text area
+Input data
+Load
+Add
+Clic to add the contents of the main text area as a new interpolation file
+Set the x position to interpolate
+Position
+Number of decimals
+Set the number of decimal places in the results
+Check to interpolate using spline method, otherwise linear
+Spline
+Results of the interpolation
+Interpolation dialog
+Execute
+Error while performing search. Check your input.
+Error while loading file.
+Error while saving file.
+Insert the name of the new file in the list.
+Insert name
+Error while interpolating.
+Survey
+Field
+Source name
+Select the survey
+Field of view in degrees
+Coordinates
+Select the type of coordinates
+Color table
+Select the color table (LUT)
+Size of the image in pixels
+Size
+Invert
+Check to invert levels
+Check to show the grid
+Grid
+Select the scaling
+Scaling
+Contours
+Show overlay of contours of another survey. Example: 408mhz:Log:6:1:1000 (6 levels from 1 to 1000 in log scale using 408mhz survey)
+SkyView dialog
+Name of one or several Vizier catalogs (separated by comma) to request and draw sources
+Clic to save image
+Error while executing.
+Error while saving.
+PAH carbonaceous neutral
+Flux
+Set the position angle of axis in degrees
+Set the title
+Auxiliar values
+Set auxiliar functions as name = value. Any 'name' can be used in later auxiliar functions and in velocity, abundance, ...
+Clic to add/edit a value
+Set the projection of the velocity in z axis as a function in km/s (Vlsr)
+Set the velocity width as a function in km/s
+CIRCUMPOLAR/ALWAYS VISIBLE
+UNKNOWN
+ALWAYS BELOW HORIZON
+Belinda
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Full Moon
+New Moon
+Moon's first quarter
+Moon's last quarter
+Lunar eclipse
+Solar eclipse
+Spring equinox
+Autumn equinox
+Summer solstice
+Winter solstice
+Minimum distance of
+Minimum distance from Sun of
+Minimum elongation of
+Maximum distance of
+Maximum distance from Sun of
+Maximum elongation of
+GRS transit
+Moon's perigee
+Moon's apogee
+Mercury transit
+Venus transit
+Parallax
+Day
+Separation
+Satellites of
+radii
+Daphnis
+All molecules
+Check this to search in all molecules
+Center
+Details about
+Lock dragging
+Search object
+Modify date
+Modify observer
+Modify projection
+Modify coordinate system
+Show planets
+Show comets
+Show asteroids
+Show probes/artificial satellites/transNeptunians/SNs/meteor showers
+Draw grid
+Draw constellation limits
+Draw nebula/Milky way
+Draw labels
+Set limiting magnitude for stars
+Set limiting magnitude for objects
+%obj not found above the horizon
+Supernova
+Solar system object
+Object type
+screen position
+Proper name
+Type;Double [sep ("), magA-B, period (yr), PA (°)];Variable [maxMag, minMag, period (days), type]
+Found feature '%feature' on %object in position %x/%y (planetographic position %lon, %lat)
+Mouse position %x, %y. Planetographic position: %lon, %lat
+Please enter the name of the object to search for.
+Select object
+Please enter the new date in the following format:\nyear, month, day, hour, minute, second, time scale.\nCurrent date is %date.\nInsert 'now' for current instant, or '+10m'\nor '-10h' to add/sustract days (d), hours (h),\nminutes (m), or seconds (s). Possible time scales are\nLT, UTC, UT1, TT, TDB. For years B.C. insert for\ninstance -10 for year 10 B.C. (without year 0).
+Select new date
+now
+Current location is %loc. Please enter the name of the new location, or the\ngeographical location as 5 values (name, longitude, latitude (°), height (m), time zone (h))
+Select new location
+The selected location '%loc' could not be found.
+Could not find location
+Select the sky projection.
+Select the projection
+Select the coordinate system to use.
+Select the coordinate system
+No stars
+Select the limiting magnitude for stars
+Limiting magnitude for stars
+No objects
+Select the limiting magnitude for objects
+Limiting magnitude for objects
+OFFSET_RA
+OFFSET_DEC
+VELOCITY
+FLUX
+VEL
+RA offset
+DEC offset
+Set Contours
+RA
+DEC
+Ecl. Lon
+Ecl. Lat
+Gal. Lon
+Gal. Lat
+Grid x
+Grid y
+Intensity
+Please insert the contour level in physical units.
+Contour Level Input
+Add
+Delete
+Integrated
+Reset Displays
+Link Displays
+Source
+Line (backend)
+Velocity width
+Map separation
+Select x axis unit
+Map mode
+Area chart
+Update
+Offset
+in
+beam
+Spectrum at
+dRA
+dDEC
+Iso_surface_level
+Observations
+Model
+Points in plane
+Chart
+Tree view
+Edit grid
+Reset zoom
+Export
+The number of stars found is %nstars, and accurate\nephemerides for all them could require much time.\nDo you want to calculate accurate ephemerides?
+Accurate star positions?
+region of galaxy
+quasar
+duplicate
+duplicate in NGC
+star/s
+not found
+nebula
+planetary nebula
+globular cluster
+hybrid
+partial phase semi-duration in
+total phase semi-duration in
+umbra
+not central
+Trajectory of
+Set below the three values required for the trajectory:\nThe number of days before current date,\nThe number of days after current date,\nand the interval between calculations in days.\nOptionally, add as fourth value the number of steps between\nconsecutive labels (3 by default), and a fifth value with the\nunit for the first three values if you don't want days:\nseconds (s), minutes (m), hours (h), or years (y).
+Select the starting/ending dates of the trajectory
+Show natural satellites
+Cylindrical equidistant
+Deep sky object
+Could not save the image. The image was copied to the clipboard instead.
+Calculating, please wait ...
+Update sky
+forward
+backward
+Real time
+Static
+Color squeme
+White background
+Black background
+Night mode
+White background simple anaglyph
+White background simple red-cyan anaglyph
+White background red-cyan anaglyph
+Black background red-cyan anaglyph
+Night mode red-cyan anaglyph
+White background simple green-red anaglyph
+White background green-red anaglyph
+Black background green-red anaglyph
+Night mode green-red anaglyph
+Draw textures
+No textures
+Low quality
+Standard quality
+High quality
+Very high quality
+Very low quality
+Several locations found
+Please select one of the following locations.
+Could not export the chart or copy it to the clipboard
+Kuiper belt member
+Variable star
+ends
+Chinese
+Lunar Transient Phenomena
+Conjunction
+in front of
+behind
+Occultation
+Main body
+Secondary body
+Event type
+Eclipse
+Shadow transit
+Mira variable star
+Eclipsing variable star
+Astronomical events
+on top of
+Maximum not visible from
+Maximum
+ZHR
+Meteor shower
+Minima
+Maxima
+radiant
+Mayan calendar
+Quadrantids
+delta-Cancrids
+alpha-Centaurids
+delta-Leonids
+gamma-Normids
+Virginids
+Lyrids
+pi-Puppids
+eta-Aquarids
+Sagittarids
+June Bootids
+Pegasids
+July Phoenicids
+Piscis Austrinids
+Southern delta-Aquarids
+alpha-Capricornids
+Southern iota-Aquarids
+Northern delta-Aquarids
+Perseids
+kappa-Cygnids
+Northern iota-Aquarids
+alpha-Aurigids
+delta-Aurigids
+Piscids
+Draconids
+epsilon-Geminids
+Orionids
+Southern Taurids
+Northern Taurids
+Leonids
+alpha-Monocerotids
+chi-Orionids
+Dec Phoenicids
+Puppid/Velids
+Monocerotids
+sigma-Hydrids
+Geminids
+Coma Berenicids
+Ursids
+B.C.
+Print mode
+GRS (Great Red Spot)
+Const. limit
+Objects and constellations
+Symbols for deep sky objects (star cluster, nebula, galaxy) and constellation figure/boundary
+Astronomical events for %year
+Enable image inversion due to the telescope
+Show sky below horizon
+Opposition
+Sun on the horizon from crater
+Earth's time
+Saturn rings edge-on
+Show additional catalogs
+City
+Ecliptic north pole, a AU from Sun
+Annular eclipse
+starts to be visible to naked eye
+ends to be visible to naked eye
+with maximum magnitude (%mag, elongation %elong°)
+Saturn rings in maximum aperture
+No eclipse
+from
+Total solar eclipse on
+Annular solar eclipse on
+Partial solar eclipse on
+Eclipse maximum
+Sun elevation
+First contact
+Last contact
+Eclipse magnitude
+Total phase duration
+Annular phase duration
+Total lunar eclipse on
+Partial lunar eclipse on
+Penumbral lunar eclipse on
+Oposition in RA at time
+Umbral magnitude
+Penumbral magnitude
+at moonrise
+at moonset
+Total umbra starts
+Total umbra ends
+Partial phase starts
+Partial phase ends
+Penumbral phase starts
+Penumbra phase ends
+Moon elevation
+Next solar eclipse
+Next lunar eclipse
+NO RISE/SET/TRANSIT
+Complete eclipse visible
+Eclipse not visible
+First contact visible after sunrise (right) / before sunset (left)
+Last contact visible after sunrise (right) / before sunset (left)
+All eclipse visible
+A.D.
+Several serial ports were found
+Please select in which of these serial ports the telescope is attached
+Telescope Control Panel
+Fast
+Slow
+Slew
+Find
+Center
+Guide
+Goto
+Object
+RA
+DEC
+Shutdown
+Focus
+Focus speed
+Move
+Speed
+Stop
+Sync
+Connect
+Park
+Disconnect
+AZ
+EL
+Lon
+Lat
+Time zone
+DST
+Please make sure your telescope is properly configured to point\nto the Sun before selecting the goto button
+Could not find '%obj'
+Cannot go to this position. Please check the object is above the horizon.
+Dome
+Open
+Could not rotate the dome
+Shot
+Image type
+Filter
+Image resolution
+Dark
+Flat
+On Source
+Test
+Shutter
+Time in bulb mode
+Orientation
+Several cameras found
+Please, select the camera to use
+Camera
+Camera/telescope/dome not ready
+The telescope or dome isn't ready or the camera is currently taking a shot
+Aperture f/
+Could not shot the photo. Details: 
+unrefracted
+Weather conditions are inadequate to continue observations.\nThe observatory has been turned off indefinitely.
+Bulb
+Field of view (°)
+Extrasolar planets
+Radiosource
+IRAM catalog
+Virtual Telescope
+Number of shots
+Virtual Camera
+Observations control panel
+Observation
+Fit window
+Color mode
+Automatic/combine
+Image scale
+Image information
+Autoreduce
+Source list
+Reduce
+Delete
+Observations table
+Enabled
+Type (raw/jpg)
+Date
+Toggle coordinate grid
+Cannot reduce this image
+This image is disabled from the table. You shoud enable it before pressing the reduce button.
+List of sources not available in this kind of image
+Median
+Average
+Multiple shot
+Please, select the frame combination method
+Frame combination method
+Please, select one of these options
+Multiple shot selection
+shots
+The multiple shot mode is not available for this kind of image
+Multiple shot mode not available
+Values for the previous execution
+Screen position
+Sky catalog position
+Sky solved position
+Position rms in RA/DEC (\")
+Flux/catalog magnitude/computed magnitude
+yes
+no
+Unpark
+Toggle linear/logarithmic intensity scale
+Show list of objects
+Disabled
+Kappa sigma clipping
+Stack
+Configuration options
+Project information
+Observer
+Description
+Telescope options
+Textures in Virtual camera
+Planets
+Weather alarm options
+Max humidity (%)
+Max wind speed (km/s)
+Max temperature (C)
+Min temperature (C)
+Processing options
+Dark/Flat combination
+Image orientation
+Frame average
+Interpolation mode
+Drizzle
+Nearest neighbor
+Bilinear
+Bicubic
+Ponderation
+Nearest point
+SExtractor options
+Min area (pix)
+Sigma
+Min object type
+Max sources
+Camera # options
+Position error (°)
+Interval between shots (s)
+Dark dir
+Flat dir
+On dir
+Reduced dir
+Stacked dir
+The following parameters were not set due to an error in the input data
+North up, East right
+North down, East right
+North up, East left
+Penumbral
+Full penumbral
+Change from winter to summer time due to daylight saving time
+Change from summer to winter time due to daylight saving time
+Near Earth Object
+Meteors
+Moon's maximum declination
+Moon's minimum declination
+Other
+Inexistent
+Moon's ascending node
+Moon's descending node
+Cannot stack/average a mixture of images solved astrometrically and not solved
+Average
+Averaged dir
+Confirm image deletion
+Remove %file?
+Same as for darks/flats
+Minimum intensity
+Maximum intensity
+Normalization method
+All
+Overlay DSS image
+In ancient times is recommended to use only the time scales Terrestrial Time or Barycentric Dynamical Time
+Messier/Caldwell
+Type
+open cluster
+Enable horizon mode
+Easter date
+Pentecost date
+Non inverted
+Barlow/reducer
+Distance to Sun and Earth of
+Nova
+Carrington rotation number
+Brown lunation number
+Ceres
+Pallas
+Lutetia
+Davida
+Steins
+Itokawa
+9P/Tempel 1
+19P/Borrelly
+Nutation
+Libration
+Solar system barycenter
+Flare of Iridium
+start
+end
+max
+light-years
+supermoon
+Pulsating
+Eruptive
+Eclipsing
+Rotating
+NO RISE ON THIS DATE
+NO TRANSIT ON THIS DATE
+NO SET ON THIS DATE
+here
+Supergalactical
+Supergalactic longitude
+Supergalactic latitude
+Dichotomy/Quadrature
+Objects
+Features

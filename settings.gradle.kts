@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "astralis"
 include(":app")
+include(":jparsec_lib")
  

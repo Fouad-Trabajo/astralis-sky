@@ -90,6 +90,8 @@ dependencies {
     //Calendar
     implementation(libs.calendar.view)
     implementation(libs.calendar.compose)
+    //Jparsec
+    implementation(project(":jparsec_lib"))
 
     //MockK
     testImplementation(libs.mockk)
